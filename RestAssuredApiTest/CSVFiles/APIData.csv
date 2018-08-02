@@ -1,0 +1,4 @@
+ID,casename,httpmethod,Host,Url,Header_ContentType,Param,AssertStr,AssertCode
+1,正常登录,post,http://test.xk.api.myzs.com/, gateway,application/x-www-form-urlencoded,password=dc483e80a7a0bd9ef71d8cf973673924&method=kkpb.user.login&mobile=18534163095,登陆成功,200
+2,正常登录但账号错误,post,http://test.xk.api.myzs.com/, gateway,application/x-www-form-urlencoded,password=aaaaaa6&method=kkpb.user.login&mobile=18534163095,不正确,201
+3,手机号不存在进行登录,post,http://test.xk.api.myzs.com/, gateway,application/x-www-form-urlencoded,password=aaaaaa6&method=kkpb.user.login&mobile=19900000000,未注册,201

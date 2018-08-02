@@ -1,0 +1,1156 @@
+Logger-->DEBUG 2018-08-01 15:07:263 java.lang.String,0- test_funciton_name:CsvReader;******LogMessage:行数:1********1,正常登录,post,http://test.xk.api.myzs.com/, gateway,application/x-www-form-urlencoded,password=a123456&method=kkpb.user.login&mobile=18534163095
+Logger-->DEBUG 2018-08-01 15:07:267 java.lang.String,4- test_funciton_name:CsvReader;******LogMessage:casename:正常登录--------------Param:password=a123456&method=kkpb.user.login&mobile=18534163095
+Logger-->DEBUG 2018-08-01 15:07:269 java.lang.String,6- test_funciton_name:CsvReader;******LogMessage:行数:2********2,正常登录但账号错误,post,http://test.xk.api.myzs.com/, gateway,application/x-www-form-urlencoded,password=aaaaaa6&method=kkpb.user.login&mobile=18534163095
+Logger-->DEBUG 2018-08-01 15:07:2611 java.lang.String,8- test_funciton_name:CsvReader;******LogMessage:casename:正常登录但账号错误--------------Param:password=aaaaaa6&method=kkpb.user.login&mobile=18534163095
+Logger-->DEBUG 2018-08-01 15:07:26790 org.apache.http.impl.conn.BasicClientConnectionManager,787- Get connection for route {}->http://test.xk.api.myzs.com:80
+Logger-->DEBUG 2018-08-01 15:07:26800 org.apache.http.impl.conn.DefaultClientConnectionOperator,797- Connecting to test.xk.api.myzs.com:80
+Logger-->DEBUG 2018-08-01 15:07:26859 org.apache.http.client.protocol.RequestAddCookies,856- CookieSpec selected: ignoreCookies
+Logger-->DEBUG 2018-08-01 15:07:26861 org.apache.http.client.protocol.RequestAuthCache,858- Auth cache not set in the context
+Logger-->DEBUG 2018-08-01 15:07:26862 org.apache.http.client.protocol.RequestTargetAuthentication,859- Target auth state: UNCHALLENGED
+Logger-->DEBUG 2018-08-01 15:07:26863 org.apache.http.client.protocol.RequestProxyAuthentication,860- Proxy auth state: UNCHALLENGED
+Logger-->DEBUG 2018-08-01 15:07:26864 org.apache.http.impl.client.DefaultHttpClient,861- Attempt 1 to execute request
+Logger-->DEBUG 2018-08-01 15:07:26864 org.apache.http.impl.conn.DefaultClientConnection,861- Sending request: POST /gateway HTTP/1.1
+Logger-->DEBUG 2018-08-01 15:07:26865 org.apache.http.wire,862-  >> "POST /gateway HTTP/1.1[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:07:26866 org.apache.http.wire,863-  >> "Accept: */*[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:07:26866 org.apache.http.wire,863-  >> "Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:07:26866 org.apache.http.wire,863-  >> "Content-Length: 33[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:07:26867 org.apache.http.wire,864-  >> "Host: test.xk.api.myzs.com[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:07:26868 org.apache.http.wire,865-  >> "Connection: Keep-Alive[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:07:26868 org.apache.http.wire,865-  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_73)[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:07:26868 org.apache.http.wire,865-  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:07:26869 org.apache.http.wire,866-  >> "[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:07:26869 org.apache.http.headers,866- >> POST /gateway HTTP/1.1
+Logger-->DEBUG 2018-08-01 15:07:26869 org.apache.http.headers,866- >> Accept: */*
+Logger-->DEBUG 2018-08-01 15:07:26870 org.apache.http.headers,867- >> Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1
+Logger-->DEBUG 2018-08-01 15:07:26870 org.apache.http.headers,867- >> Content-Length: 33
+Logger-->DEBUG 2018-08-01 15:07:26870 org.apache.http.headers,867- >> Host: test.xk.api.myzs.com
+Logger-->DEBUG 2018-08-01 15:07:26870 org.apache.http.headers,867- >> Connection: Keep-Alive
+Logger-->DEBUG 2018-08-01 15:07:26871 org.apache.http.headers,868- >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_73)
+Logger-->DEBUG 2018-08-01 15:07:26871 org.apache.http.headers,868- >> Accept-Encoding: gzip,deflate
+Logger-->DEBUG 2018-08-01 15:07:26871 org.apache.http.wire,868-  >> "application/x-www-form-urlencoded"
+Logger-->DEBUG 2018-08-01 15:07:26937 org.apache.http.wire,934-  << "HTTP/1.1 200 OK[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:07:26939 org.apache.http.wire,936-  << "Server: nginx/1.4.6 (Ubuntu)[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:07:26939 org.apache.http.wire,936-  << "Date: Wed, 01 Aug 2018 07:07:30 GMT[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:07:26939 org.apache.http.wire,936-  << "Content-Type: application/json[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:07:26940 org.apache.http.wire,937-  << "Transfer-Encoding: chunked[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:07:26940 org.apache.http.wire,937-  << "Connection: keep-alive[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:07:26940 org.apache.http.wire,937-  << "X-Powered-By: PHP/5.5.9-1ubuntu4.19[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:07:26940 org.apache.http.wire,937-  << "[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:07:26941 org.apache.http.impl.conn.DefaultClientConnection,938- Receiving response: HTTP/1.1 200 OK
+Logger-->DEBUG 2018-08-01 15:07:26941 org.apache.http.headers,938- << HTTP/1.1 200 OK
+Logger-->DEBUG 2018-08-01 15:07:26942 org.apache.http.headers,939- << Server: nginx/1.4.6 (Ubuntu)
+Logger-->DEBUG 2018-08-01 15:07:26942 org.apache.http.headers,939- << Date: Wed, 01 Aug 2018 07:07:30 GMT
+Logger-->DEBUG 2018-08-01 15:07:26942 org.apache.http.headers,939- << Content-Type: application/json
+Logger-->DEBUG 2018-08-01 15:07:26943 org.apache.http.headers,940- << Transfer-Encoding: chunked
+Logger-->DEBUG 2018-08-01 15:07:26943 org.apache.http.headers,940- << Connection: keep-alive
+Logger-->DEBUG 2018-08-01 15:07:26943 org.apache.http.headers,940- << X-Powered-By: PHP/5.5.9-1ubuntu4.19
+Logger-->DEBUG 2018-08-01 15:07:26947 org.apache.http.impl.client.DefaultHttpClient,944- Connection can be kept alive indefinitely
+Logger-->DEBUG 2018-08-01 15:07:26958 io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder,955- Parsing response as: application/json
+Logger-->DEBUG 2018-08-01 15:07:26958 io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder,955- Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+Logger-->DEBUG 2018-08-01 15:07:26980 org.apache.http.impl.conn.BasicClientConnectionManager,977- Get connection for route {}->http://test.xk.api.myzs.com:80
+Logger-->DEBUG 2018-08-01 15:07:26981 org.apache.http.impl.conn.DefaultClientConnectionOperator,978- Connecting to test.xk.api.myzs.com:80
+Logger-->DEBUG 2018-08-01 15:07:2744 org.apache.http.client.protocol.RequestAddCookies,1041- CookieSpec selected: ignoreCookies
+Logger-->DEBUG 2018-08-01 15:07:2744 org.apache.http.client.protocol.RequestAuthCache,1041- Auth cache not set in the context
+Logger-->DEBUG 2018-08-01 15:07:2744 org.apache.http.client.protocol.RequestTargetAuthentication,1041- Target auth state: UNCHALLENGED
+Logger-->DEBUG 2018-08-01 15:07:2745 org.apache.http.client.protocol.RequestProxyAuthentication,1042- Proxy auth state: UNCHALLENGED
+Logger-->DEBUG 2018-08-01 15:07:2745 org.apache.http.impl.client.DefaultHttpClient,1042- Attempt 1 to execute request
+Logger-->DEBUG 2018-08-01 15:07:2745 org.apache.http.impl.conn.DefaultClientConnection,1042- Sending request: POST /gateway HTTP/1.1
+Logger-->DEBUG 2018-08-01 15:07:2745 org.apache.http.wire,1042-  >> "POST /gateway HTTP/1.1[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:07:2746 org.apache.http.wire,1043-  >> "Accept: */*[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:07:2746 org.apache.http.wire,1043-  >> "Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:07:2746 org.apache.http.wire,1043-  >> "Content-Length: 33[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:07:2746 org.apache.http.wire,1043-  >> "Host: test.xk.api.myzs.com[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:07:2747 org.apache.http.wire,1044-  >> "Connection: Keep-Alive[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:07:2747 org.apache.http.wire,1044-  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_73)[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:07:2747 org.apache.http.wire,1044-  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:07:2747 org.apache.http.wire,1044-  >> "[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:07:2748 org.apache.http.headers,1045- >> POST /gateway HTTP/1.1
+Logger-->DEBUG 2018-08-01 15:07:2748 org.apache.http.headers,1045- >> Accept: */*
+Logger-->DEBUG 2018-08-01 15:07:2748 org.apache.http.headers,1045- >> Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1
+Logger-->DEBUG 2018-08-01 15:07:2748 org.apache.http.headers,1045- >> Content-Length: 33
+Logger-->DEBUG 2018-08-01 15:07:2749 org.apache.http.headers,1046- >> Host: test.xk.api.myzs.com
+Logger-->DEBUG 2018-08-01 15:07:2749 org.apache.http.headers,1046- >> Connection: Keep-Alive
+Logger-->DEBUG 2018-08-01 15:07:2749 org.apache.http.headers,1046- >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_73)
+Logger-->DEBUG 2018-08-01 15:07:2749 org.apache.http.headers,1046- >> Accept-Encoding: gzip,deflate
+Logger-->DEBUG 2018-08-01 15:07:2750 org.apache.http.wire,1047-  >> "application/x-www-form-urlencoded"
+Logger-->DEBUG 2018-08-01 15:07:27126 org.apache.http.wire,1123-  << "HTTP/1.1 200 OK[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:07:27126 org.apache.http.wire,1123-  << "Server: nginx/1.4.6 (Ubuntu)[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:07:27127 org.apache.http.wire,1124-  << "Date: Wed, 01 Aug 2018 07:07:30 GMT[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:07:27127 org.apache.http.wire,1124-  << "Content-Type: application/json[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:07:27127 org.apache.http.wire,1124-  << "Transfer-Encoding: chunked[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:07:27128 org.apache.http.wire,1125-  << "Connection: keep-alive[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:07:27128 org.apache.http.wire,1125-  << "X-Powered-By: PHP/5.5.9-1ubuntu4.19[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:07:27128 org.apache.http.wire,1125-  << "[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:07:27128 org.apache.http.impl.conn.DefaultClientConnection,1125- Receiving response: HTTP/1.1 200 OK
+Logger-->DEBUG 2018-08-01 15:07:27129 org.apache.http.headers,1126- << HTTP/1.1 200 OK
+Logger-->DEBUG 2018-08-01 15:07:27129 org.apache.http.headers,1126- << Server: nginx/1.4.6 (Ubuntu)
+Logger-->DEBUG 2018-08-01 15:07:27129 org.apache.http.headers,1126- << Date: Wed, 01 Aug 2018 07:07:30 GMT
+Logger-->DEBUG 2018-08-01 15:07:27129 org.apache.http.headers,1126- << Content-Type: application/json
+Logger-->DEBUG 2018-08-01 15:07:27129 org.apache.http.headers,1126- << Transfer-Encoding: chunked
+Logger-->DEBUG 2018-08-01 15:07:27130 org.apache.http.headers,1127- << Connection: keep-alive
+Logger-->DEBUG 2018-08-01 15:07:27130 org.apache.http.headers,1127- << X-Powered-By: PHP/5.5.9-1ubuntu4.19
+Logger-->DEBUG 2018-08-01 15:07:27130 org.apache.http.impl.client.DefaultHttpClient,1127- Connection can be kept alive indefinitely
+Logger-->DEBUG 2018-08-01 15:07:27131 io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder,1128- Parsing response as: application/json
+Logger-->DEBUG 2018-08-01 15:07:27131 io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder,1128- Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+Logger-->DEBUG 2018-08-01 15:08:19967 java.lang.String,0- test_funciton_name:CsvReader;******LogMessage:行数:1********1,正常登录,post,http://test.xk.api.myzs.com/, gateway,application/x-www-form-urlencoded,password=a123456&method=kkpb.user.login&mobile=18534163095
+Logger-->DEBUG 2018-08-01 15:08:19971 java.lang.String,4- test_funciton_name:CsvReader;******LogMessage:casename:正常登录--------------Param:password=a123456&method=kkpb.user.login&mobile=18534163095
+Logger-->DEBUG 2018-08-01 15:08:19973 java.lang.String,6- test_funciton_name:CsvReader;******LogMessage:行数:2********2,正常登录但账号错误,post,http://test.xk.api.myzs.com/, gateway,application/x-www-form-urlencoded,password=aaaaaa6&method=kkpb.user.login&mobile=18534163095
+Logger-->DEBUG 2018-08-01 15:08:19975 java.lang.String,8- test_funciton_name:CsvReader;******LogMessage:casename:正常登录但账号错误--------------Param:password=aaaaaa6&method=kkpb.user.login&mobile=18534163095
+Logger-->DEBUG 2018-08-01 15:08:20779 org.apache.http.impl.conn.BasicClientConnectionManager,812- Get connection for route {}->http://test.xk.api.myzs.com:80
+Logger-->DEBUG 2018-08-01 15:08:20786 org.apache.http.impl.conn.DefaultClientConnectionOperator,819- Connecting to test.xk.api.myzs.com:80
+Logger-->DEBUG 2018-08-01 15:08:20838 org.apache.http.client.protocol.RequestAddCookies,871- CookieSpec selected: ignoreCookies
+Logger-->DEBUG 2018-08-01 15:08:20840 org.apache.http.client.protocol.RequestAuthCache,873- Auth cache not set in the context
+Logger-->DEBUG 2018-08-01 15:08:20840 org.apache.http.client.protocol.RequestTargetAuthentication,873- Target auth state: UNCHALLENGED
+Logger-->DEBUG 2018-08-01 15:08:20841 org.apache.http.client.protocol.RequestProxyAuthentication,874- Proxy auth state: UNCHALLENGED
+Logger-->DEBUG 2018-08-01 15:08:20842 org.apache.http.impl.client.DefaultHttpClient,875- Attempt 1 to execute request
+Logger-->DEBUG 2018-08-01 15:08:20843 org.apache.http.impl.conn.DefaultClientConnection,876- Sending request: POST /gateway HTTP/1.1
+Logger-->DEBUG 2018-08-01 15:08:20844 org.apache.http.wire,877-  >> "POST /gateway HTTP/1.1[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:08:20845 org.apache.http.wire,878-  >> "Accept: */*[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:08:20845 org.apache.http.wire,878-  >> "Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:08:20845 org.apache.http.wire,878-  >> "Content-Length: 33[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:08:20846 org.apache.http.wire,879-  >> "Host: test.xk.api.myzs.com[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:08:20847 org.apache.http.wire,880-  >> "Connection: Keep-Alive[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:08:20847 org.apache.http.wire,880-  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_73)[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:08:20847 org.apache.http.wire,880-  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:08:20848 org.apache.http.wire,881-  >> "[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:08:20848 org.apache.http.headers,881- >> POST /gateway HTTP/1.1
+Logger-->DEBUG 2018-08-01 15:08:20848 org.apache.http.headers,881- >> Accept: */*
+Logger-->DEBUG 2018-08-01 15:08:20849 org.apache.http.headers,882- >> Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1
+Logger-->DEBUG 2018-08-01 15:08:20849 org.apache.http.headers,882- >> Content-Length: 33
+Logger-->DEBUG 2018-08-01 15:08:20849 org.apache.http.headers,882- >> Host: test.xk.api.myzs.com
+Logger-->DEBUG 2018-08-01 15:08:20849 org.apache.http.headers,882- >> Connection: Keep-Alive
+Logger-->DEBUG 2018-08-01 15:08:20850 org.apache.http.headers,883- >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_73)
+Logger-->DEBUG 2018-08-01 15:08:20850 org.apache.http.headers,883- >> Accept-Encoding: gzip,deflate
+Logger-->DEBUG 2018-08-01 15:08:20850 org.apache.http.wire,883-  >> "application/x-www-form-urlencoded"
+Logger-->DEBUG 2018-08-01 15:08:20903 org.apache.http.wire,936-  << "HTTP/1.1 200 OK[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:08:20905 org.apache.http.wire,938-  << "Server: nginx/1.4.6 (Ubuntu)[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:08:20906 org.apache.http.wire,939-  << "Date: Wed, 01 Aug 2018 07:08:24 GMT[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:08:20906 org.apache.http.wire,939-  << "Content-Type: application/json[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:08:20907 org.apache.http.wire,940-  << "Transfer-Encoding: chunked[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:08:20907 org.apache.http.wire,940-  << "Connection: keep-alive[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:08:20907 org.apache.http.wire,940-  << "X-Powered-By: PHP/5.5.9-1ubuntu4.19[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:08:20907 org.apache.http.wire,940-  << "[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:08:20908 org.apache.http.impl.conn.DefaultClientConnection,941- Receiving response: HTTP/1.1 200 OK
+Logger-->DEBUG 2018-08-01 15:08:20908 org.apache.http.headers,941- << HTTP/1.1 200 OK
+Logger-->DEBUG 2018-08-01 15:08:20909 org.apache.http.headers,942- << Server: nginx/1.4.6 (Ubuntu)
+Logger-->DEBUG 2018-08-01 15:08:20909 org.apache.http.headers,942- << Date: Wed, 01 Aug 2018 07:08:24 GMT
+Logger-->DEBUG 2018-08-01 15:08:20909 org.apache.http.headers,942- << Content-Type: application/json
+Logger-->DEBUG 2018-08-01 15:08:20910 org.apache.http.headers,943- << Transfer-Encoding: chunked
+Logger-->DEBUG 2018-08-01 15:08:20910 org.apache.http.headers,943- << Connection: keep-alive
+Logger-->DEBUG 2018-08-01 15:08:20910 org.apache.http.headers,943- << X-Powered-By: PHP/5.5.9-1ubuntu4.19
+Logger-->DEBUG 2018-08-01 15:08:20915 org.apache.http.impl.client.DefaultHttpClient,948- Connection can be kept alive indefinitely
+Logger-->DEBUG 2018-08-01 15:08:20929 io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder,962- Parsing response as: application/json
+Logger-->DEBUG 2018-08-01 15:08:20930 io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder,963- Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+Logger-->DEBUG 2018-08-01 15:08:20960 org.apache.http.impl.conn.BasicClientConnectionManager,993- Get connection for route {}->http://test.xk.api.myzs.com:80
+Logger-->DEBUG 2018-08-01 15:08:20960 org.apache.http.impl.conn.DefaultClientConnectionOperator,993- Connecting to test.xk.api.myzs.com:80
+Logger-->DEBUG 2018-08-01 15:08:20999 org.apache.http.client.protocol.RequestAddCookies,1032- CookieSpec selected: ignoreCookies
+Logger-->DEBUG 2018-08-01 15:08:20999 org.apache.http.client.protocol.RequestAuthCache,1032- Auth cache not set in the context
+Logger-->DEBUG 2018-08-01 15:08:210 org.apache.http.client.protocol.RequestTargetAuthentication,1033- Target auth state: UNCHALLENGED
+Logger-->DEBUG 2018-08-01 15:08:210 org.apache.http.client.protocol.RequestProxyAuthentication,1033- Proxy auth state: UNCHALLENGED
+Logger-->DEBUG 2018-08-01 15:08:210 org.apache.http.impl.client.DefaultHttpClient,1033- Attempt 1 to execute request
+Logger-->DEBUG 2018-08-01 15:08:211 org.apache.http.impl.conn.DefaultClientConnection,1034- Sending request: POST /gateway HTTP/1.1
+Logger-->DEBUG 2018-08-01 15:08:211 org.apache.http.wire,1034-  >> "POST /gateway HTTP/1.1[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:08:211 org.apache.http.wire,1034-  >> "Accept: */*[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:08:212 org.apache.http.wire,1035-  >> "Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:08:212 org.apache.http.wire,1035-  >> "Content-Length: 33[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:08:212 org.apache.http.wire,1035-  >> "Host: test.xk.api.myzs.com[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:08:213 org.apache.http.wire,1036-  >> "Connection: Keep-Alive[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:08:213 org.apache.http.wire,1036-  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_73)[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:08:213 org.apache.http.wire,1036-  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:08:213 org.apache.http.wire,1036-  >> "[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:08:214 org.apache.http.headers,1037- >> POST /gateway HTTP/1.1
+Logger-->DEBUG 2018-08-01 15:08:214 org.apache.http.headers,1037- >> Accept: */*
+Logger-->DEBUG 2018-08-01 15:08:214 org.apache.http.headers,1037- >> Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1
+Logger-->DEBUG 2018-08-01 15:08:214 org.apache.http.headers,1037- >> Content-Length: 33
+Logger-->DEBUG 2018-08-01 15:08:214 org.apache.http.headers,1037- >> Host: test.xk.api.myzs.com
+Logger-->DEBUG 2018-08-01 15:08:215 org.apache.http.headers,1038- >> Connection: Keep-Alive
+Logger-->DEBUG 2018-08-01 15:08:215 org.apache.http.headers,1038- >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_73)
+Logger-->DEBUG 2018-08-01 15:08:215 org.apache.http.headers,1038- >> Accept-Encoding: gzip,deflate
+Logger-->DEBUG 2018-08-01 15:08:215 org.apache.http.wire,1038-  >> "application/x-www-form-urlencoded"
+Logger-->DEBUG 2018-08-01 15:08:2174 org.apache.http.wire,1107-  << "HTTP/1.1 200 OK[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:08:2175 org.apache.http.wire,1108-  << "Server: nginx/1.4.6 (Ubuntu)[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:08:2176 org.apache.http.wire,1109-  << "Date: Wed, 01 Aug 2018 07:08:24 GMT[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:08:2176 org.apache.http.wire,1109-  << "Content-Type: application/json[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:08:2177 org.apache.http.wire,1110-  << "Transfer-Encoding: chunked[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:08:2177 org.apache.http.wire,1110-  << "Connection: keep-alive[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:08:2177 org.apache.http.wire,1110-  << "X-Powered-By: PHP/5.5.9-1ubuntu4.19[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:08:2178 org.apache.http.wire,1111-  << "[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:08:2178 org.apache.http.impl.conn.DefaultClientConnection,1111- Receiving response: HTTP/1.1 200 OK
+Logger-->DEBUG 2018-08-01 15:08:2179 org.apache.http.headers,1112- << HTTP/1.1 200 OK
+Logger-->DEBUG 2018-08-01 15:08:2179 org.apache.http.headers,1112- << Server: nginx/1.4.6 (Ubuntu)
+Logger-->DEBUG 2018-08-01 15:08:2179 org.apache.http.headers,1112- << Date: Wed, 01 Aug 2018 07:08:24 GMT
+Logger-->DEBUG 2018-08-01 15:08:2180 org.apache.http.headers,1113- << Content-Type: application/json
+Logger-->DEBUG 2018-08-01 15:08:2180 org.apache.http.headers,1113- << Transfer-Encoding: chunked
+Logger-->DEBUG 2018-08-01 15:08:2181 org.apache.http.headers,1114- << Connection: keep-alive
+Logger-->DEBUG 2018-08-01 15:08:2181 org.apache.http.headers,1114- << X-Powered-By: PHP/5.5.9-1ubuntu4.19
+Logger-->DEBUG 2018-08-01 15:08:2182 org.apache.http.impl.client.DefaultHttpClient,1115- Connection can be kept alive indefinitely
+Logger-->DEBUG 2018-08-01 15:08:2183 io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder,1116- Parsing response as: application/json
+Logger-->DEBUG 2018-08-01 15:08:2183 io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder,1116- Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+Logger-->DEBUG 2018-08-01 15:08:5962 java.lang.String,0- test_funciton_name:CsvReader;******LogMessage:行数:1********1,正常登录,post,http://test.xk.api.myzs.com/, gateway,application/x-www-form-urlencoded,password=a123456&method=kkpb.user.login&mobile=18534163095
+Logger-->DEBUG 2018-08-01 15:08:5965 java.lang.String,3- test_funciton_name:CsvReader;******LogMessage:casename:正常登录--------------Param:password=a123456&method=kkpb.user.login&mobile=18534163095
+Logger-->DEBUG 2018-08-01 15:08:5967 java.lang.String,5- test_funciton_name:CsvReader;******LogMessage:行数:2********2,正常登录但账号错误,post,http://test.xk.api.myzs.com/, gateway,application/x-www-form-urlencoded,password=aaaaaa6&method=kkpb.user.login&mobile=18534163095
+Logger-->DEBUG 2018-08-01 15:08:5969 java.lang.String,7- test_funciton_name:CsvReader;******LogMessage:casename:正常登录但账号错误--------------Param:password=aaaaaa6&method=kkpb.user.login&mobile=18534163095
+Logger-->DEBUG 2018-08-01 15:08:59873 org.apache.http.impl.conn.BasicClientConnectionManager,811- Get connection for route {}->http://test.xk.api.myzs.com:80
+Logger-->DEBUG 2018-08-01 15:08:59880 org.apache.http.impl.conn.DefaultClientConnectionOperator,818- Connecting to test.xk.api.myzs.com:80
+Logger-->DEBUG 2018-08-01 15:08:59927 org.apache.http.client.protocol.RequestAddCookies,865- CookieSpec selected: ignoreCookies
+Logger-->DEBUG 2018-08-01 15:08:59929 org.apache.http.client.protocol.RequestAuthCache,867- Auth cache not set in the context
+Logger-->DEBUG 2018-08-01 15:08:59930 org.apache.http.client.protocol.RequestTargetAuthentication,868- Target auth state: UNCHALLENGED
+Logger-->DEBUG 2018-08-01 15:08:59930 org.apache.http.client.protocol.RequestProxyAuthentication,868- Proxy auth state: UNCHALLENGED
+Logger-->DEBUG 2018-08-01 15:08:59931 org.apache.http.impl.client.DefaultHttpClient,869- Attempt 1 to execute request
+Logger-->DEBUG 2018-08-01 15:08:59932 org.apache.http.impl.conn.DefaultClientConnection,870- Sending request: POST /gateway HTTP/1.1
+Logger-->DEBUG 2018-08-01 15:08:59932 org.apache.http.wire,870-  >> "POST /gateway HTTP/1.1[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:08:59933 org.apache.http.wire,871-  >> "Accept: */*[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:08:59934 org.apache.http.wire,872-  >> "Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:08:59934 org.apache.http.wire,872-  >> "Content-Length: 58[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:08:59935 org.apache.http.wire,873-  >> "Host: test.xk.api.myzs.com[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:08:59935 org.apache.http.wire,873-  >> "Connection: Keep-Alive[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:08:59936 org.apache.http.wire,874-  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_73)[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:08:59936 org.apache.http.wire,874-  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:08:59936 org.apache.http.wire,874-  >> "[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:08:59937 org.apache.http.headers,875- >> POST /gateway HTTP/1.1
+Logger-->DEBUG 2018-08-01 15:08:59937 org.apache.http.headers,875- >> Accept: */*
+Logger-->DEBUG 2018-08-01 15:08:59937 org.apache.http.headers,875- >> Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1
+Logger-->DEBUG 2018-08-01 15:08:59937 org.apache.http.headers,875- >> Content-Length: 58
+Logger-->DEBUG 2018-08-01 15:08:59938 org.apache.http.headers,876- >> Host: test.xk.api.myzs.com
+Logger-->DEBUG 2018-08-01 15:08:59938 org.apache.http.headers,876- >> Connection: Keep-Alive
+Logger-->DEBUG 2018-08-01 15:08:59938 org.apache.http.headers,876- >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_73)
+Logger-->DEBUG 2018-08-01 15:08:59939 org.apache.http.headers,877- >> Accept-Encoding: gzip,deflate
+Logger-->DEBUG 2018-08-01 15:08:59939 org.apache.http.wire,877-  >> "password=a123456&method=kkpb.user.login&mobile=18534163095"
+Logger-->DEBUG 2018-08-01 15:08:59996 org.apache.http.wire,934-  << "HTTP/1.1 200 OK[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:08:59998 org.apache.http.wire,936-  << "Server: nginx/1.4.6 (Ubuntu)[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:08:59998 org.apache.http.wire,936-  << "Date: Wed, 01 Aug 2018 07:09:03 GMT[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:08:59998 org.apache.http.wire,936-  << "Content-Type: application/json[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:08:59999 org.apache.http.wire,937-  << "Transfer-Encoding: chunked[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:08:59999 org.apache.http.wire,937-  << "Connection: keep-alive[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:08:59999 org.apache.http.wire,937-  << "X-Powered-By: PHP/5.5.9-1ubuntu4.19[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:08:59999 org.apache.http.wire,937-  << "[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:09:000 org.apache.http.impl.conn.DefaultClientConnection,938- Receiving response: HTTP/1.1 200 OK
+Logger-->DEBUG 2018-08-01 15:09:000 org.apache.http.headers,938- << HTTP/1.1 200 OK
+Logger-->DEBUG 2018-08-01 15:09:001 org.apache.http.headers,939- << Server: nginx/1.4.6 (Ubuntu)
+Logger-->DEBUG 2018-08-01 15:09:001 org.apache.http.headers,939- << Date: Wed, 01 Aug 2018 07:09:03 GMT
+Logger-->DEBUG 2018-08-01 15:09:001 org.apache.http.headers,939- << Content-Type: application/json
+Logger-->DEBUG 2018-08-01 15:09:001 org.apache.http.headers,939- << Transfer-Encoding: chunked
+Logger-->DEBUG 2018-08-01 15:09:002 org.apache.http.headers,940- << Connection: keep-alive
+Logger-->DEBUG 2018-08-01 15:09:002 org.apache.http.headers,940- << X-Powered-By: PHP/5.5.9-1ubuntu4.19
+Logger-->DEBUG 2018-08-01 15:09:006 org.apache.http.impl.client.DefaultHttpClient,944- Connection can be kept alive indefinitely
+Logger-->DEBUG 2018-08-01 15:09:0018 io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder,956- Parsing response as: application/json
+Logger-->DEBUG 2018-08-01 15:09:0019 io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder,957- Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+Logger-->DEBUG 2018-08-01 15:09:0054 org.apache.http.impl.conn.BasicClientConnectionManager,992- Get connection for route {}->http://test.xk.api.myzs.com:80
+Logger-->DEBUG 2018-08-01 15:09:0055 org.apache.http.impl.conn.DefaultClientConnectionOperator,993- Connecting to test.xk.api.myzs.com:80
+Logger-->DEBUG 2018-08-01 15:09:0097 org.apache.http.client.protocol.RequestAddCookies,1035- CookieSpec selected: ignoreCookies
+Logger-->DEBUG 2018-08-01 15:09:0097 org.apache.http.client.protocol.RequestAuthCache,1035- Auth cache not set in the context
+Logger-->DEBUG 2018-08-01 15:09:0097 org.apache.http.client.protocol.RequestTargetAuthentication,1035- Target auth state: UNCHALLENGED
+Logger-->DEBUG 2018-08-01 15:09:0098 org.apache.http.client.protocol.RequestProxyAuthentication,1036- Proxy auth state: UNCHALLENGED
+Logger-->DEBUG 2018-08-01 15:09:0098 org.apache.http.impl.client.DefaultHttpClient,1036- Attempt 1 to execute request
+Logger-->DEBUG 2018-08-01 15:09:0098 org.apache.http.impl.conn.DefaultClientConnection,1036- Sending request: POST /gateway HTTP/1.1
+Logger-->DEBUG 2018-08-01 15:09:0098 org.apache.http.wire,1036-  >> "POST /gateway HTTP/1.1[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:09:0099 org.apache.http.wire,1037-  >> "Accept: */*[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:09:0099 org.apache.http.wire,1037-  >> "Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:09:0099 org.apache.http.wire,1037-  >> "Content-Length: 58[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:09:00100 org.apache.http.wire,1038-  >> "Host: test.xk.api.myzs.com[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:09:00100 org.apache.http.wire,1038-  >> "Connection: Keep-Alive[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:09:00100 org.apache.http.wire,1038-  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_73)[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:09:00101 org.apache.http.wire,1039-  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:09:00101 org.apache.http.wire,1039-  >> "[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:09:00101 org.apache.http.headers,1039- >> POST /gateway HTTP/1.1
+Logger-->DEBUG 2018-08-01 15:09:00102 org.apache.http.headers,1040- >> Accept: */*
+Logger-->DEBUG 2018-08-01 15:09:00102 org.apache.http.headers,1040- >> Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1
+Logger-->DEBUG 2018-08-01 15:09:00102 org.apache.http.headers,1040- >> Content-Length: 58
+Logger-->DEBUG 2018-08-01 15:09:00102 org.apache.http.headers,1040- >> Host: test.xk.api.myzs.com
+Logger-->DEBUG 2018-08-01 15:09:00103 org.apache.http.headers,1041- >> Connection: Keep-Alive
+Logger-->DEBUG 2018-08-01 15:09:00103 org.apache.http.headers,1041- >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_73)
+Logger-->DEBUG 2018-08-01 15:09:00103 org.apache.http.headers,1041- >> Accept-Encoding: gzip,deflate
+Logger-->DEBUG 2018-08-01 15:09:00103 org.apache.http.wire,1041-  >> "password=aaaaaa6&method=kkpb.user.login&mobile=18534163095"
+Logger-->DEBUG 2018-08-01 15:09:00166 org.apache.http.wire,1104-  << "HTTP/1.1 200 OK[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:09:00167 org.apache.http.wire,1105-  << "Server: nginx/1.4.6 (Ubuntu)[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:09:00167 org.apache.http.wire,1105-  << "Date: Wed, 01 Aug 2018 07:09:03 GMT[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:09:00167 org.apache.http.wire,1105-  << "Content-Type: application/json[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:09:00168 org.apache.http.wire,1106-  << "Transfer-Encoding: chunked[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:09:00168 org.apache.http.wire,1106-  << "Connection: keep-alive[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:09:00168 org.apache.http.wire,1106-  << "X-Powered-By: PHP/5.5.9-1ubuntu4.19[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:09:00168 org.apache.http.wire,1106-  << "[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:09:00169 org.apache.http.impl.conn.DefaultClientConnection,1107- Receiving response: HTTP/1.1 200 OK
+Logger-->DEBUG 2018-08-01 15:09:00169 org.apache.http.headers,1107- << HTTP/1.1 200 OK
+Logger-->DEBUG 2018-08-01 15:09:00169 org.apache.http.headers,1107- << Server: nginx/1.4.6 (Ubuntu)
+Logger-->DEBUG 2018-08-01 15:09:00169 org.apache.http.headers,1107- << Date: Wed, 01 Aug 2018 07:09:03 GMT
+Logger-->DEBUG 2018-08-01 15:09:00170 org.apache.http.headers,1108- << Content-Type: application/json
+Logger-->DEBUG 2018-08-01 15:09:00170 org.apache.http.headers,1108- << Transfer-Encoding: chunked
+Logger-->DEBUG 2018-08-01 15:09:00170 org.apache.http.headers,1108- << Connection: keep-alive
+Logger-->DEBUG 2018-08-01 15:09:00171 org.apache.http.headers,1109- << X-Powered-By: PHP/5.5.9-1ubuntu4.19
+Logger-->DEBUG 2018-08-01 15:09:00171 org.apache.http.impl.client.DefaultHttpClient,1109- Connection can be kept alive indefinitely
+Logger-->DEBUG 2018-08-01 15:09:00171 io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder,1109- Parsing response as: application/json
+Logger-->DEBUG 2018-08-01 15:09:00172 io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder,1110- Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+Logger-->DEBUG 2018-08-01 15:10:54238 java.lang.String,0- test_funciton_name:CsvReader;******LogMessage:行数:1********1,正常登录,post,http://test.xk.api.myzs.com/, gateway,application/x-www-form-urlencoded,password=a123456&method=kkpb.user.login&mobile=18534163095
+Logger-->DEBUG 2018-08-01 15:10:54242 java.lang.String,4- test_funciton_name:CsvReader;******LogMessage:casename:正常登录--------------Param:password=a123456&method=kkpb.user.login&mobile=18534163095
+Logger-->DEBUG 2018-08-01 15:10:54244 java.lang.String,6- test_funciton_name:CsvReader;******LogMessage:行数:2********2,正常登录但账号错误,post,http://test.xk.api.myzs.com/, gateway,application/x-www-form-urlencoded,password=aaaaaa6&method=kkpb.user.login&mobile=18534163095
+Logger-->DEBUG 2018-08-01 15:10:54246 java.lang.String,8- test_funciton_name:CsvReader;******LogMessage:casename:正常登录但账号错误--------------Param:password=aaaaaa6&method=kkpb.user.login&mobile=18534163095
+Logger-->DEBUG 2018-08-01 15:10:5562 org.apache.http.impl.conn.BasicClientConnectionManager,824- Get connection for route {}->http://test.xk.api.myzs.com:80
+Logger-->DEBUG 2018-08-01 15:10:5569 org.apache.http.impl.conn.DefaultClientConnectionOperator,831- Connecting to test.xk.api.myzs.com:80
+Logger-->DEBUG 2018-08-01 15:10:55117 org.apache.http.client.protocol.RequestAddCookies,879- CookieSpec selected: ignoreCookies
+Logger-->DEBUG 2018-08-01 15:10:55119 org.apache.http.client.protocol.RequestAuthCache,881- Auth cache not set in the context
+Logger-->DEBUG 2018-08-01 15:10:55119 org.apache.http.client.protocol.RequestTargetAuthentication,881- Target auth state: UNCHALLENGED
+Logger-->DEBUG 2018-08-01 15:10:55120 org.apache.http.client.protocol.RequestProxyAuthentication,882- Proxy auth state: UNCHALLENGED
+Logger-->DEBUG 2018-08-01 15:10:55122 org.apache.http.impl.client.DefaultHttpClient,884- Attempt 1 to execute request
+Logger-->DEBUG 2018-08-01 15:10:55122 org.apache.http.impl.conn.DefaultClientConnection,884- Sending request: POST /gateway HTTP/1.1
+Logger-->DEBUG 2018-08-01 15:10:55123 org.apache.http.wire,885-  >> "POST /gateway HTTP/1.1[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:10:55125 org.apache.http.wire,887-  >> "Accept: */*[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:10:55125 org.apache.http.wire,887-  >> "Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:10:55125 org.apache.http.wire,887-  >> "Content-Length: 58[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:10:55127 org.apache.http.wire,889-  >> "Host: test.xk.api.myzs.com[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:10:55127 org.apache.http.wire,889-  >> "Connection: Keep-Alive[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:10:55127 org.apache.http.wire,889-  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_73)[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:10:55128 org.apache.http.wire,890-  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:10:55128 org.apache.http.wire,890-  >> "[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:10:55128 org.apache.http.headers,890- >> POST /gateway HTTP/1.1
+Logger-->DEBUG 2018-08-01 15:10:55129 org.apache.http.headers,891- >> Accept: */*
+Logger-->DEBUG 2018-08-01 15:10:55129 org.apache.http.headers,891- >> Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1
+Logger-->DEBUG 2018-08-01 15:10:55129 org.apache.http.headers,891- >> Content-Length: 58
+Logger-->DEBUG 2018-08-01 15:10:55129 org.apache.http.headers,891- >> Host: test.xk.api.myzs.com
+Logger-->DEBUG 2018-08-01 15:10:55130 org.apache.http.headers,892- >> Connection: Keep-Alive
+Logger-->DEBUG 2018-08-01 15:10:55130 org.apache.http.headers,892- >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_73)
+Logger-->DEBUG 2018-08-01 15:10:55130 org.apache.http.headers,892- >> Accept-Encoding: gzip,deflate
+Logger-->DEBUG 2018-08-01 15:10:55131 org.apache.http.wire,893-  >> "password=a123456&method=kkpb.user.login&mobile=18534163095"
+Logger-->DEBUG 2018-08-01 15:10:55191 org.apache.http.wire,953-  << "HTTP/1.1 200 OK[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:10:55193 org.apache.http.wire,955-  << "Server: nginx/1.4.6 (Ubuntu)[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:10:55193 org.apache.http.wire,955-  << "Date: Wed, 01 Aug 2018 07:10:58 GMT[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:10:55193 org.apache.http.wire,955-  << "Content-Type: application/json[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:10:55194 org.apache.http.wire,956-  << "Transfer-Encoding: chunked[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:10:55194 org.apache.http.wire,956-  << "Connection: keep-alive[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:10:55194 org.apache.http.wire,956-  << "X-Powered-By: PHP/5.5.9-1ubuntu4.19[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:10:55195 org.apache.http.wire,957-  << "[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:10:55195 org.apache.http.impl.conn.DefaultClientConnection,957- Receiving response: HTTP/1.1 200 OK
+Logger-->DEBUG 2018-08-01 15:10:55196 org.apache.http.headers,958- << HTTP/1.1 200 OK
+Logger-->DEBUG 2018-08-01 15:10:55196 org.apache.http.headers,958- << Server: nginx/1.4.6 (Ubuntu)
+Logger-->DEBUG 2018-08-01 15:10:55196 org.apache.http.headers,958- << Date: Wed, 01 Aug 2018 07:10:58 GMT
+Logger-->DEBUG 2018-08-01 15:10:55196 org.apache.http.headers,958- << Content-Type: application/json
+Logger-->DEBUG 2018-08-01 15:10:55197 org.apache.http.headers,959- << Transfer-Encoding: chunked
+Logger-->DEBUG 2018-08-01 15:10:55197 org.apache.http.headers,959- << Connection: keep-alive
+Logger-->DEBUG 2018-08-01 15:10:55197 org.apache.http.headers,959- << X-Powered-By: PHP/5.5.9-1ubuntu4.19
+Logger-->DEBUG 2018-08-01 15:10:55201 org.apache.http.impl.client.DefaultHttpClient,963- Connection can be kept alive indefinitely
+Logger-->DEBUG 2018-08-01 15:10:55213 io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder,975- Parsing response as: application/json
+Logger-->DEBUG 2018-08-01 15:10:55213 io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder,975- Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+Logger-->DEBUG 2018-08-01 15:10:55239 org.apache.http.impl.conn.BasicClientConnectionManager,1001- Get connection for route {}->http://test.xk.api.myzs.com:80
+Logger-->DEBUG 2018-08-01 15:10:55240 org.apache.http.impl.conn.DefaultClientConnectionOperator,1002- Connecting to test.xk.api.myzs.com:80
+Logger-->DEBUG 2018-08-01 15:10:55288 org.apache.http.client.protocol.RequestAddCookies,1050- CookieSpec selected: ignoreCookies
+Logger-->DEBUG 2018-08-01 15:10:55288 org.apache.http.client.protocol.RequestAuthCache,1050- Auth cache not set in the context
+Logger-->DEBUG 2018-08-01 15:10:55289 org.apache.http.client.protocol.RequestTargetAuthentication,1051- Target auth state: UNCHALLENGED
+Logger-->DEBUG 2018-08-01 15:10:55289 org.apache.http.client.protocol.RequestProxyAuthentication,1051- Proxy auth state: UNCHALLENGED
+Logger-->DEBUG 2018-08-01 15:10:55289 org.apache.http.impl.client.DefaultHttpClient,1051- Attempt 1 to execute request
+Logger-->DEBUG 2018-08-01 15:10:55289 org.apache.http.impl.conn.DefaultClientConnection,1051- Sending request: POST /gateway HTTP/1.1
+Logger-->DEBUG 2018-08-01 15:10:55290 org.apache.http.wire,1052-  >> "POST /gateway HTTP/1.1[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:10:55290 org.apache.http.wire,1052-  >> "Accept: */*[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:10:55290 org.apache.http.wire,1052-  >> "Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:10:55290 org.apache.http.wire,1052-  >> "Content-Length: 58[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:10:55291 org.apache.http.wire,1053-  >> "Host: test.xk.api.myzs.com[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:10:55291 org.apache.http.wire,1053-  >> "Connection: Keep-Alive[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:10:55291 org.apache.http.wire,1053-  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_73)[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:10:55292 org.apache.http.wire,1054-  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:10:55292 org.apache.http.wire,1054-  >> "[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:10:55292 org.apache.http.headers,1054- >> POST /gateway HTTP/1.1
+Logger-->DEBUG 2018-08-01 15:10:55292 org.apache.http.headers,1054- >> Accept: */*
+Logger-->DEBUG 2018-08-01 15:10:55293 org.apache.http.headers,1055- >> Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1
+Logger-->DEBUG 2018-08-01 15:10:55293 org.apache.http.headers,1055- >> Content-Length: 58
+Logger-->DEBUG 2018-08-01 15:10:55293 org.apache.http.headers,1055- >> Host: test.xk.api.myzs.com
+Logger-->DEBUG 2018-08-01 15:10:55293 org.apache.http.headers,1055- >> Connection: Keep-Alive
+Logger-->DEBUG 2018-08-01 15:10:55293 org.apache.http.headers,1055- >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_73)
+Logger-->DEBUG 2018-08-01 15:10:55294 org.apache.http.headers,1056- >> Accept-Encoding: gzip,deflate
+Logger-->DEBUG 2018-08-01 15:10:55294 org.apache.http.wire,1056-  >> "password=aaaaaa6&method=kkpb.user.login&mobile=18534163095"
+Logger-->DEBUG 2018-08-01 15:10:55361 org.apache.http.wire,1123-  << "HTTP/1.1 200 OK[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:10:55362 org.apache.http.wire,1124-  << "Server: nginx/1.4.6 (Ubuntu)[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:10:55363 org.apache.http.wire,1125-  << "Date: Wed, 01 Aug 2018 07:10:59 GMT[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:10:55363 org.apache.http.wire,1125-  << "Content-Type: application/json[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:10:55364 org.apache.http.wire,1126-  << "Transfer-Encoding: chunked[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:10:55364 org.apache.http.wire,1126-  << "Connection: keep-alive[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:10:55364 org.apache.http.wire,1126-  << "X-Powered-By: PHP/5.5.9-1ubuntu4.19[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:10:55365 org.apache.http.wire,1127-  << "[\r][\n]"
+Logger-->DEBUG 2018-08-01 15:10:55365 org.apache.http.impl.conn.DefaultClientConnection,1127- Receiving response: HTTP/1.1 200 OK
+Logger-->DEBUG 2018-08-01 15:10:55366 org.apache.http.headers,1128- << HTTP/1.1 200 OK
+Logger-->DEBUG 2018-08-01 15:10:55366 org.apache.http.headers,1128- << Server: nginx/1.4.6 (Ubuntu)
+Logger-->DEBUG 2018-08-01 15:10:55367 org.apache.http.headers,1129- << Date: Wed, 01 Aug 2018 07:10:59 GMT
+Logger-->DEBUG 2018-08-01 15:10:55367 org.apache.http.headers,1129- << Content-Type: application/json
+Logger-->DEBUG 2018-08-01 15:10:55367 org.apache.http.headers,1129- << Transfer-Encoding: chunked
+Logger-->DEBUG 2018-08-01 15:10:55368 org.apache.http.headers,1130- << Connection: keep-alive
+Logger-->DEBUG 2018-08-01 15:10:55368 org.apache.http.headers,1130- << X-Powered-By: PHP/5.5.9-1ubuntu4.19
+Logger-->DEBUG 2018-08-01 15:10:55369 org.apache.http.impl.client.DefaultHttpClient,1131- Connection can be kept alive indefinitely
+Logger-->DEBUG 2018-08-01 15:10:55370 io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder,1132- Parsing response as: application/json
+Logger-->DEBUG 2018-08-01 15:10:55370 io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder,1132- Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+Logger-->DEBUG 2018-08-01 16:11:08470 java.lang.String,0- test_funciton_name:CsvReader;******LogMessage:行数:1********1,正常登录,post,http://test.xk.api.myzs.com/, gateway,application/x-www-form-urlencoded,password=a123456&method=kkpb.user.login&mobile=18534163095,成功
+Logger-->DEBUG 2018-08-01 16:11:08479 java.lang.String,9- test_funciton_name:CsvReader;******LogMessage:casename:正常登录--------------Param:password=a123456&method=kkpb.user.login&mobile=18534163095
+Logger-->DEBUG 2018-08-01 16:11:08482 java.lang.String,12- test_funciton_name:CsvReader;******LogMessage:行数:2********2,正常登录但账号错误,post,http://test.xk.api.myzs.com/, gateway,application/x-www-form-urlencoded,password=aaaaaa6&method=kkpb.user.login&mobile=18534163095,失败
+Logger-->DEBUG 2018-08-01 16:11:08485 java.lang.String,15- test_funciton_name:CsvReader;******LogMessage:casename:正常登录但账号错误--------------Param:password=aaaaaa6&method=kkpb.user.login&mobile=18534163095
+Logger-->DEBUG 2018-08-01 16:11:09397 org.apache.http.impl.conn.BasicClientConnectionManager,927- Get connection for route {}->http://test.xk.api.myzs.com:80
+Logger-->DEBUG 2018-08-01 16:11:09408 org.apache.http.impl.conn.DefaultClientConnectionOperator,938- Connecting to test.xk.api.myzs.com:80
+Logger-->DEBUG 2018-08-01 16:11:09469 org.apache.http.client.protocol.RequestAddCookies,999- CookieSpec selected: ignoreCookies
+Logger-->DEBUG 2018-08-01 16:11:09471 org.apache.http.client.protocol.RequestAuthCache,1001- Auth cache not set in the context
+Logger-->DEBUG 2018-08-01 16:11:09471 org.apache.http.client.protocol.RequestTargetAuthentication,1001- Target auth state: UNCHALLENGED
+Logger-->DEBUG 2018-08-01 16:11:09472 org.apache.http.client.protocol.RequestProxyAuthentication,1002- Proxy auth state: UNCHALLENGED
+Logger-->DEBUG 2018-08-01 16:11:09473 org.apache.http.impl.client.DefaultHttpClient,1003- Attempt 1 to execute request
+Logger-->DEBUG 2018-08-01 16:11:09474 org.apache.http.impl.conn.DefaultClientConnection,1004- Sending request: POST /gateway HTTP/1.1
+Logger-->DEBUG 2018-08-01 16:11:09474 org.apache.http.wire,1004-  >> "POST /gateway HTTP/1.1[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:11:09475 org.apache.http.wire,1005-  >> "Accept: */*[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:11:09476 org.apache.http.wire,1006-  >> "Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:11:09476 org.apache.http.wire,1006-  >> "Content-Length: 58[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:11:09477 org.apache.http.wire,1007-  >> "Host: test.xk.api.myzs.com[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:11:09478 org.apache.http.wire,1008-  >> "Connection: Keep-Alive[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:11:09478 org.apache.http.wire,1008-  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_73)[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:11:09478 org.apache.http.wire,1008-  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:11:09479 org.apache.http.wire,1009-  >> "[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:11:09479 org.apache.http.headers,1009- >> POST /gateway HTTP/1.1
+Logger-->DEBUG 2018-08-01 16:11:09479 org.apache.http.headers,1009- >> Accept: */*
+Logger-->DEBUG 2018-08-01 16:11:09479 org.apache.http.headers,1009- >> Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1
+Logger-->DEBUG 2018-08-01 16:11:09480 org.apache.http.headers,1010- >> Content-Length: 58
+Logger-->DEBUG 2018-08-01 16:11:09480 org.apache.http.headers,1010- >> Host: test.xk.api.myzs.com
+Logger-->DEBUG 2018-08-01 16:11:09480 org.apache.http.headers,1010- >> Connection: Keep-Alive
+Logger-->DEBUG 2018-08-01 16:11:09481 org.apache.http.headers,1011- >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_73)
+Logger-->DEBUG 2018-08-01 16:11:09481 org.apache.http.headers,1011- >> Accept-Encoding: gzip,deflate
+Logger-->DEBUG 2018-08-01 16:11:09481 org.apache.http.wire,1011-  >> "password=a123456&method=kkpb.user.login&mobile=18534163095"
+Logger-->DEBUG 2018-08-01 16:11:09551 org.apache.http.wire,1081-  << "HTTP/1.1 200 OK[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:11:09552 org.apache.http.wire,1082-  << "Server: nginx/1.4.6 (Ubuntu)[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:11:09553 org.apache.http.wire,1083-  << "Date: Wed, 01 Aug 2018 08:11:13 GMT[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:11:09553 org.apache.http.wire,1083-  << "Content-Type: application/json[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:11:09553 org.apache.http.wire,1083-  << "Transfer-Encoding: chunked[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:11:09554 org.apache.http.wire,1084-  << "Connection: keep-alive[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:11:09554 org.apache.http.wire,1084-  << "X-Powered-By: PHP/5.5.9-1ubuntu4.19[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:11:09554 org.apache.http.wire,1084-  << "[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:11:09555 org.apache.http.impl.conn.DefaultClientConnection,1085- Receiving response: HTTP/1.1 200 OK
+Logger-->DEBUG 2018-08-01 16:11:09555 org.apache.http.headers,1085- << HTTP/1.1 200 OK
+Logger-->DEBUG 2018-08-01 16:11:09555 org.apache.http.headers,1085- << Server: nginx/1.4.6 (Ubuntu)
+Logger-->DEBUG 2018-08-01 16:11:09556 org.apache.http.headers,1086- << Date: Wed, 01 Aug 2018 08:11:13 GMT
+Logger-->DEBUG 2018-08-01 16:11:09556 org.apache.http.headers,1086- << Content-Type: application/json
+Logger-->DEBUG 2018-08-01 16:11:09556 org.apache.http.headers,1086- << Transfer-Encoding: chunked
+Logger-->DEBUG 2018-08-01 16:11:09556 org.apache.http.headers,1086- << Connection: keep-alive
+Logger-->DEBUG 2018-08-01 16:11:09557 org.apache.http.headers,1087- << X-Powered-By: PHP/5.5.9-1ubuntu4.19
+Logger-->DEBUG 2018-08-01 16:11:09561 org.apache.http.impl.client.DefaultHttpClient,1091- Connection can be kept alive indefinitely
+Logger-->DEBUG 2018-08-01 16:11:09575 io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder,1105- Parsing response as: application/json
+Logger-->DEBUG 2018-08-01 16:11:09575 io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder,1105- Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+Logger-->DEBUG 2018-08-01 16:11:09604 org.apache.http.wire,1134-  << "37[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:11:09604 org.apache.http.wire,1134-  << "{"code":201,"message":"\u5bc6\u7801\u4e0d\u6b63\u786e"}"
+Logger-->DEBUG 2018-08-01 16:11:09607 org.apache.http.wire,1137-  << "[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:11:09607 org.apache.http.wire,1137-  << "0[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:11:09608 org.apache.http.wire,1138-  << "[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:11:09608 org.apache.http.impl.conn.BasicClientConnectionManager,1138- Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@16c63f5
+Logger-->DEBUG 2018-08-01 16:11:09608 org.apache.http.impl.conn.BasicClientConnectionManager,1138- Connection can be kept alive indefinitely
+Logger-->DEBUG 2018-08-01 16:13:33972 java.lang.String,0- test_funciton_name:CsvReader;******LogMessage:行数:1********1,正常登录,post,http://test.xk.api.myzs.com/, gateway,application/x-www-form-urlencoded,password=a123456&method=kkpb.user.login&mobile=18534163095,成功
+Logger-->DEBUG 2018-08-01 16:13:33976 java.lang.String,4- test_funciton_name:CsvReader;******LogMessage:casename:正常登录--------------Param:password=a123456&method=kkpb.user.login&mobile=18534163095
+Logger-->DEBUG 2018-08-01 16:13:33977 java.lang.String,5- test_funciton_name:CsvReader;******LogMessage:行数:2********2,正常登录但账号错误,post,http://test.xk.api.myzs.com/, gateway,application/x-www-form-urlencoded,password=aaaaaa6&method=kkpb.user.login&mobile=18534163095,失败
+Logger-->DEBUG 2018-08-01 16:13:33979 java.lang.String,7- test_funciton_name:CsvReader;******LogMessage:casename:正常登录但账号错误--------------Param:password=aaaaaa6&method=kkpb.user.login&mobile=18534163095
+Logger-->DEBUG 2018-08-01 16:13:34783 org.apache.http.impl.conn.BasicClientConnectionManager,811- Get connection for route {}->http://test.xk.api.myzs.com:80
+Logger-->DEBUG 2018-08-01 16:13:34799 org.apache.http.impl.conn.DefaultClientConnectionOperator,827- Connecting to test.xk.api.myzs.com:80
+Logger-->DEBUG 2018-08-01 16:13:34862 org.apache.http.client.protocol.RequestAddCookies,890- CookieSpec selected: ignoreCookies
+Logger-->DEBUG 2018-08-01 16:13:34864 org.apache.http.client.protocol.RequestAuthCache,892- Auth cache not set in the context
+Logger-->DEBUG 2018-08-01 16:13:34864 org.apache.http.client.protocol.RequestTargetAuthentication,892- Target auth state: UNCHALLENGED
+Logger-->DEBUG 2018-08-01 16:13:34865 org.apache.http.client.protocol.RequestProxyAuthentication,893- Proxy auth state: UNCHALLENGED
+Logger-->DEBUG 2018-08-01 16:13:34867 org.apache.http.impl.client.DefaultHttpClient,895- Attempt 1 to execute request
+Logger-->DEBUG 2018-08-01 16:13:34867 org.apache.http.impl.conn.DefaultClientConnection,895- Sending request: POST /gateway HTTP/1.1
+Logger-->DEBUG 2018-08-01 16:13:34868 org.apache.http.wire,896-  >> "POST /gateway HTTP/1.1[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:13:34870 org.apache.http.wire,898-  >> "Accept: */*[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:13:34871 org.apache.http.wire,899-  >> "Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:13:34871 org.apache.http.wire,899-  >> "Content-Length: 58[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:13:34873 org.apache.http.wire,901-  >> "Host: test.xk.api.myzs.com[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:13:34873 org.apache.http.wire,901-  >> "Connection: Keep-Alive[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:13:34873 org.apache.http.wire,901-  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_73)[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:13:34874 org.apache.http.wire,902-  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:13:34874 org.apache.http.wire,902-  >> "[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:13:34874 org.apache.http.headers,902- >> POST /gateway HTTP/1.1
+Logger-->DEBUG 2018-08-01 16:13:34875 org.apache.http.headers,903- >> Accept: */*
+Logger-->DEBUG 2018-08-01 16:13:34875 org.apache.http.headers,903- >> Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1
+Logger-->DEBUG 2018-08-01 16:13:34875 org.apache.http.headers,903- >> Content-Length: 58
+Logger-->DEBUG 2018-08-01 16:13:34876 org.apache.http.headers,904- >> Host: test.xk.api.myzs.com
+Logger-->DEBUG 2018-08-01 16:13:34876 org.apache.http.headers,904- >> Connection: Keep-Alive
+Logger-->DEBUG 2018-08-01 16:13:34876 org.apache.http.headers,904- >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_73)
+Logger-->DEBUG 2018-08-01 16:13:34877 org.apache.http.headers,905- >> Accept-Encoding: gzip,deflate
+Logger-->DEBUG 2018-08-01 16:13:34877 org.apache.http.wire,905-  >> "password=a123456&method=kkpb.user.login&mobile=18534163095"
+Logger-->DEBUG 2018-08-01 16:13:34947 org.apache.http.wire,975-  << "HTTP/1.1 200 OK[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:13:34949 org.apache.http.wire,977-  << "Server: nginx/1.4.6 (Ubuntu)[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:13:34950 org.apache.http.wire,978-  << "Date: Wed, 01 Aug 2018 08:13:38 GMT[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:13:34950 org.apache.http.wire,978-  << "Content-Type: application/json[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:13:34951 org.apache.http.wire,979-  << "Transfer-Encoding: chunked[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:13:34951 org.apache.http.wire,979-  << "Connection: keep-alive[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:13:34951 org.apache.http.wire,979-  << "X-Powered-By: PHP/5.5.9-1ubuntu4.19[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:13:34952 org.apache.http.wire,980-  << "[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:13:34952 org.apache.http.impl.conn.DefaultClientConnection,980- Receiving response: HTTP/1.1 200 OK
+Logger-->DEBUG 2018-08-01 16:13:34953 org.apache.http.headers,981- << HTTP/1.1 200 OK
+Logger-->DEBUG 2018-08-01 16:13:34953 org.apache.http.headers,981- << Server: nginx/1.4.6 (Ubuntu)
+Logger-->DEBUG 2018-08-01 16:13:34953 org.apache.http.headers,981- << Date: Wed, 01 Aug 2018 08:13:38 GMT
+Logger-->DEBUG 2018-08-01 16:13:34954 org.apache.http.headers,982- << Content-Type: application/json
+Logger-->DEBUG 2018-08-01 16:13:34954 org.apache.http.headers,982- << Transfer-Encoding: chunked
+Logger-->DEBUG 2018-08-01 16:13:34954 org.apache.http.headers,982- << Connection: keep-alive
+Logger-->DEBUG 2018-08-01 16:13:34955 org.apache.http.headers,983- << X-Powered-By: PHP/5.5.9-1ubuntu4.19
+Logger-->DEBUG 2018-08-01 16:13:34959 org.apache.http.impl.client.DefaultHttpClient,987- Connection can be kept alive indefinitely
+Logger-->DEBUG 2018-08-01 16:13:34974 io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder,1002- Parsing response as: application/json
+Logger-->DEBUG 2018-08-01 16:13:34975 io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder,1003- Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+Logger-->DEBUG 2018-08-01 16:13:356 org.apache.http.wire,1034-  << "37[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:13:356 org.apache.http.wire,1034-  << "{"code":201,"message":"\u5bc6\u7801\u4e0d\u6b63\u786e"}"
+Logger-->DEBUG 2018-08-01 16:13:357 org.apache.http.wire,1035-  << "[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:13:358 org.apache.http.wire,1036-  << "0[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:13:358 org.apache.http.wire,1036-  << "[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:13:358 org.apache.http.impl.conn.BasicClientConnectionManager,1036- Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@2a898881
+Logger-->DEBUG 2018-08-01 16:13:358 org.apache.http.impl.conn.BasicClientConnectionManager,1036- Connection can be kept alive indefinitely
+Logger-->DEBUG 2018-08-01 16:14:0545 java.lang.String,0- test_funciton_name:CsvReader;******LogMessage:行数:1********1,正常登录,post,http://test.xk.api.myzs.com/, gateway,application/x-www-form-urlencoded,password=a123456&method=kkpb.user.login&mobile=18534163095,成功
+Logger-->DEBUG 2018-08-01 16:14:0548 java.lang.String,3- test_funciton_name:CsvReader;******LogMessage:casename:正常登录--------------Param:password=a123456&method=kkpb.user.login&mobile=18534163095
+Logger-->DEBUG 2018-08-01 16:14:0550 java.lang.String,5- test_funciton_name:CsvReader;******LogMessage:行数:2********2,正常登录但账号错误,post,http://test.xk.api.myzs.com/, gateway,application/x-www-form-urlencoded,password=aaaaaa6&method=kkpb.user.login&mobile=18534163095,不正确
+Logger-->DEBUG 2018-08-01 16:14:0552 java.lang.String,7- test_funciton_name:CsvReader;******LogMessage:casename:正常登录但账号错误--------------Param:password=aaaaaa6&method=kkpb.user.login&mobile=18534163095
+Logger-->DEBUG 2018-08-01 16:14:05874 org.apache.http.impl.conn.BasicClientConnectionManager,829- Get connection for route {}->http://test.xk.api.myzs.com:80
+Logger-->DEBUG 2018-08-01 16:14:05887 org.apache.http.impl.conn.DefaultClientConnectionOperator,842- Connecting to test.xk.api.myzs.com:80
+Logger-->DEBUG 2018-08-01 16:14:05960 org.apache.http.client.protocol.RequestAddCookies,915- CookieSpec selected: ignoreCookies
+Logger-->DEBUG 2018-08-01 16:14:05962 org.apache.http.client.protocol.RequestAuthCache,917- Auth cache not set in the context
+Logger-->DEBUG 2018-08-01 16:14:05963 org.apache.http.client.protocol.RequestTargetAuthentication,918- Target auth state: UNCHALLENGED
+Logger-->DEBUG 2018-08-01 16:14:05963 org.apache.http.client.protocol.RequestProxyAuthentication,918- Proxy auth state: UNCHALLENGED
+Logger-->DEBUG 2018-08-01 16:14:05965 org.apache.http.impl.client.DefaultHttpClient,920- Attempt 1 to execute request
+Logger-->DEBUG 2018-08-01 16:14:05965 org.apache.http.impl.conn.DefaultClientConnection,920- Sending request: POST /gateway HTTP/1.1
+Logger-->DEBUG 2018-08-01 16:14:05966 org.apache.http.wire,921-  >> "POST /gateway HTTP/1.1[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:14:05967 org.apache.http.wire,922-  >> "Accept: */*[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:14:05967 org.apache.http.wire,922-  >> "Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:14:05967 org.apache.http.wire,922-  >> "Content-Length: 58[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:14:05968 org.apache.http.wire,923-  >> "Host: test.xk.api.myzs.com[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:14:05969 org.apache.http.wire,924-  >> "Connection: Keep-Alive[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:14:05969 org.apache.http.wire,924-  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_73)[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:14:05970 org.apache.http.wire,925-  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:14:05970 org.apache.http.wire,925-  >> "[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:14:05970 org.apache.http.headers,925- >> POST /gateway HTTP/1.1
+Logger-->DEBUG 2018-08-01 16:14:05971 org.apache.http.headers,926- >> Accept: */*
+Logger-->DEBUG 2018-08-01 16:14:05971 org.apache.http.headers,926- >> Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1
+Logger-->DEBUG 2018-08-01 16:14:05971 org.apache.http.headers,926- >> Content-Length: 58
+Logger-->DEBUG 2018-08-01 16:14:05972 org.apache.http.headers,927- >> Host: test.xk.api.myzs.com
+Logger-->DEBUG 2018-08-01 16:14:05972 org.apache.http.headers,927- >> Connection: Keep-Alive
+Logger-->DEBUG 2018-08-01 16:14:05972 org.apache.http.headers,927- >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_73)
+Logger-->DEBUG 2018-08-01 16:14:05972 org.apache.http.headers,927- >> Accept-Encoding: gzip,deflate
+Logger-->DEBUG 2018-08-01 16:14:05973 org.apache.http.wire,928-  >> "password=a123456&method=kkpb.user.login&mobile=18534163095"
+Logger-->DEBUG 2018-08-01 16:14:0654 org.apache.http.wire,1009-  << "HTTP/1.1 200 OK[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:14:0656 org.apache.http.wire,1011-  << "Server: nginx/1.4.6 (Ubuntu)[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:14:0656 org.apache.http.wire,1011-  << "Date: Wed, 01 Aug 2018 08:14:09 GMT[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:14:0657 org.apache.http.wire,1012-  << "Content-Type: application/json[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:14:0657 org.apache.http.wire,1012-  << "Transfer-Encoding: chunked[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:14:0657 org.apache.http.wire,1012-  << "Connection: keep-alive[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:14:0657 org.apache.http.wire,1012-  << "X-Powered-By: PHP/5.5.9-1ubuntu4.19[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:14:0658 org.apache.http.wire,1013-  << "[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:14:0658 org.apache.http.impl.conn.DefaultClientConnection,1013- Receiving response: HTTP/1.1 200 OK
+Logger-->DEBUG 2018-08-01 16:14:0659 org.apache.http.headers,1014- << HTTP/1.1 200 OK
+Logger-->DEBUG 2018-08-01 16:14:0659 org.apache.http.headers,1014- << Server: nginx/1.4.6 (Ubuntu)
+Logger-->DEBUG 2018-08-01 16:14:0659 org.apache.http.headers,1014- << Date: Wed, 01 Aug 2018 08:14:09 GMT
+Logger-->DEBUG 2018-08-01 16:14:0659 org.apache.http.headers,1014- << Content-Type: application/json
+Logger-->DEBUG 2018-08-01 16:14:0660 org.apache.http.headers,1015- << Transfer-Encoding: chunked
+Logger-->DEBUG 2018-08-01 16:14:0660 org.apache.http.headers,1015- << Connection: keep-alive
+Logger-->DEBUG 2018-08-01 16:14:0660 org.apache.http.headers,1015- << X-Powered-By: PHP/5.5.9-1ubuntu4.19
+Logger-->DEBUG 2018-08-01 16:14:0664 org.apache.http.impl.client.DefaultHttpClient,1019- Connection can be kept alive indefinitely
+Logger-->DEBUG 2018-08-01 16:14:0677 io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder,1032- Parsing response as: application/json
+Logger-->DEBUG 2018-08-01 16:14:0677 io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder,1032- Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+Logger-->DEBUG 2018-08-01 16:14:06104 org.apache.http.wire,1059-  << "37[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:14:06105 org.apache.http.wire,1060-  << "{"code":201,"message":"\u5bc6\u7801\u4e0d\u6b63\u786e"}"
+Logger-->DEBUG 2018-08-01 16:14:06106 org.apache.http.wire,1061-  << "[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:14:06106 org.apache.http.wire,1061-  << "0[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:14:06107 org.apache.http.wire,1062-  << "[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:14:06107 org.apache.http.impl.conn.BasicClientConnectionManager,1062- Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@16c63f5
+Logger-->DEBUG 2018-08-01 16:14:06107 org.apache.http.impl.conn.BasicClientConnectionManager,1062- Connection can be kept alive indefinitely
+Logger-->DEBUG 2018-08-01 16:14:32206 java.lang.String,0- test_funciton_name:CsvReader;******LogMessage:行数:1********1,正常登录,post,http://test.xk.api.myzs.com/, gateway,application/x-www-form-urlencoded,password=a123456&method=kkpb.user.login&mobile=18534163095,成功
+Logger-->DEBUG 2018-08-01 16:14:32210 java.lang.String,4- test_funciton_name:CsvReader;******LogMessage:casename:正常登录--------------Param:password=a123456&method=kkpb.user.login&mobile=18534163095
+Logger-->DEBUG 2018-08-01 16:14:32212 java.lang.String,6- test_funciton_name:CsvReader;******LogMessage:行数:2********2,正常登录但账号错误,post,http://test.xk.api.myzs.com/, gateway,application/x-www-form-urlencoded,password=aaaaaa6&method=kkpb.user.login&mobile=18534163095,不正确
+Logger-->DEBUG 2018-08-01 16:14:32214 java.lang.String,8- test_funciton_name:CsvReader;******LogMessage:casename:正常登录但账号错误--------------Param:password=aaaaaa6&method=kkpb.user.login&mobile=18534163095
+Logger-->DEBUG 2018-08-01 16:14:3373 org.apache.http.impl.conn.BasicClientConnectionManager,867- Get connection for route {}->http://test.xk.api.myzs.com:80
+Logger-->DEBUG 2018-08-01 16:14:3380 org.apache.http.impl.conn.DefaultClientConnectionOperator,874- Connecting to test.xk.api.myzs.com:80
+Logger-->DEBUG 2018-08-01 16:14:33146 org.apache.http.client.protocol.RequestAddCookies,940- CookieSpec selected: ignoreCookies
+Logger-->DEBUG 2018-08-01 16:14:33148 org.apache.http.client.protocol.RequestAuthCache,942- Auth cache not set in the context
+Logger-->DEBUG 2018-08-01 16:14:33149 org.apache.http.client.protocol.RequestTargetAuthentication,943- Target auth state: UNCHALLENGED
+Logger-->DEBUG 2018-08-01 16:14:33149 org.apache.http.client.protocol.RequestProxyAuthentication,943- Proxy auth state: UNCHALLENGED
+Logger-->DEBUG 2018-08-01 16:14:33151 org.apache.http.impl.client.DefaultHttpClient,945- Attempt 1 to execute request
+Logger-->DEBUG 2018-08-01 16:14:33151 org.apache.http.impl.conn.DefaultClientConnection,945- Sending request: POST /gateway HTTP/1.1
+Logger-->DEBUG 2018-08-01 16:14:33152 org.apache.http.wire,946-  >> "POST /gateway HTTP/1.1[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:14:33153 org.apache.http.wire,947-  >> "Accept: */*[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:14:33154 org.apache.http.wire,948-  >> "Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:14:33154 org.apache.http.wire,948-  >> "Content-Length: 58[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:14:33155 org.apache.http.wire,949-  >> "Host: test.xk.api.myzs.com[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:14:33156 org.apache.http.wire,950-  >> "Connection: Keep-Alive[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:14:33156 org.apache.http.wire,950-  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_73)[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:14:33156 org.apache.http.wire,950-  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:14:33163 org.apache.http.wire,957-  >> "[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:14:33164 org.apache.http.headers,958- >> POST /gateway HTTP/1.1
+Logger-->DEBUG 2018-08-01 16:14:33164 org.apache.http.headers,958- >> Accept: */*
+Logger-->DEBUG 2018-08-01 16:14:33165 org.apache.http.headers,959- >> Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1
+Logger-->DEBUG 2018-08-01 16:14:33165 org.apache.http.headers,959- >> Content-Length: 58
+Logger-->DEBUG 2018-08-01 16:14:33166 org.apache.http.headers,960- >> Host: test.xk.api.myzs.com
+Logger-->DEBUG 2018-08-01 16:14:33166 org.apache.http.headers,960- >> Connection: Keep-Alive
+Logger-->DEBUG 2018-08-01 16:14:33166 org.apache.http.headers,960- >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_73)
+Logger-->DEBUG 2018-08-01 16:14:33167 org.apache.http.headers,961- >> Accept-Encoding: gzip,deflate
+Logger-->DEBUG 2018-08-01 16:14:33168 org.apache.http.wire,962-  >> "password=a123456&method=kkpb.user.login&mobile=18534163095"
+Logger-->DEBUG 2018-08-01 16:14:33239 org.apache.http.wire,1033-  << "HTTP/1.1 200 OK[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:14:33241 org.apache.http.wire,1035-  << "Server: nginx/1.4.6 (Ubuntu)[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:14:33241 org.apache.http.wire,1035-  << "Date: Wed, 01 Aug 2018 08:14:36 GMT[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:14:33241 org.apache.http.wire,1035-  << "Content-Type: application/json[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:14:33242 org.apache.http.wire,1036-  << "Transfer-Encoding: chunked[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:14:33242 org.apache.http.wire,1036-  << "Connection: keep-alive[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:14:33242 org.apache.http.wire,1036-  << "X-Powered-By: PHP/5.5.9-1ubuntu4.19[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:14:33243 org.apache.http.wire,1037-  << "[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:14:33246 org.apache.http.impl.conn.DefaultClientConnection,1040- Receiving response: HTTP/1.1 200 OK
+Logger-->DEBUG 2018-08-01 16:14:33246 org.apache.http.headers,1040- << HTTP/1.1 200 OK
+Logger-->DEBUG 2018-08-01 16:14:33247 org.apache.http.headers,1041- << Server: nginx/1.4.6 (Ubuntu)
+Logger-->DEBUG 2018-08-01 16:14:33247 org.apache.http.headers,1041- << Date: Wed, 01 Aug 2018 08:14:36 GMT
+Logger-->DEBUG 2018-08-01 16:14:33247 org.apache.http.headers,1041- << Content-Type: application/json
+Logger-->DEBUG 2018-08-01 16:14:33247 org.apache.http.headers,1041- << Transfer-Encoding: chunked
+Logger-->DEBUG 2018-08-01 16:14:33248 org.apache.http.headers,1042- << Connection: keep-alive
+Logger-->DEBUG 2018-08-01 16:14:33248 org.apache.http.headers,1042- << X-Powered-By: PHP/5.5.9-1ubuntu4.19
+Logger-->DEBUG 2018-08-01 16:14:33252 org.apache.http.impl.client.DefaultHttpClient,1046- Connection can be kept alive indefinitely
+Logger-->DEBUG 2018-08-01 16:14:33271 io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder,1065- Parsing response as: application/json
+Logger-->DEBUG 2018-08-01 16:14:33271 io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder,1065- Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+Logger-->DEBUG 2018-08-01 16:14:33309 org.apache.http.wire,1103-  << "37[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:14:33309 org.apache.http.wire,1103-  << "{"code":201,"message":"\u5bc6\u7801\u4e0d\u6b63\u786e"}"
+Logger-->DEBUG 2018-08-01 16:14:33311 org.apache.http.wire,1105-  << "[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:14:33312 org.apache.http.wire,1106-  << "0[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:14:33312 org.apache.http.wire,1106-  << "[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:14:33312 org.apache.http.impl.conn.BasicClientConnectionManager,1106- Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@16c63f5
+Logger-->DEBUG 2018-08-01 16:14:33312 org.apache.http.impl.conn.BasicClientConnectionManager,1106- Connection can be kept alive indefinitely
+Logger-->DEBUG 2018-08-01 16:16:34848 java.lang.String,0- test_funciton_name:CsvReader;******LogMessage:行数:1********1,正常登录,post,http://test.xk.api.myzs.com/, gateway,application/x-www-form-urlencoded,password=a123456&method=kkpb.user.login&mobile=18534163095,正常登录
+Logger-->DEBUG 2018-08-01 16:16:34853 java.lang.String,5- test_funciton_name:CsvReader;******LogMessage:casename:正常登录--------------Param:password=a123456&method=kkpb.user.login&mobile=18534163095
+Logger-->DEBUG 2018-08-01 16:16:34855 java.lang.String,7- test_funciton_name:CsvReader;******LogMessage:行数:2********2,正常登录但账号错误,post,http://test.xk.api.myzs.com/, gateway,application/x-www-form-urlencoded,password=aaaaaa6&method=kkpb.user.login&mobile=18534163095,不正确
+Logger-->DEBUG 2018-08-01 16:16:34857 java.lang.String,9- test_funciton_name:CsvReader;******LogMessage:casename:正常登录但账号错误--------------Param:password=aaaaaa6&method=kkpb.user.login&mobile=18534163095
+Logger-->DEBUG 2018-08-01 16:16:35633 org.apache.http.impl.conn.BasicClientConnectionManager,785- Get connection for route {}->http://test.xk.api.myzs.com:80
+Logger-->DEBUG 2018-08-01 16:16:35639 org.apache.http.impl.conn.DefaultClientConnectionOperator,791- Connecting to test.xk.api.myzs.com:80
+Logger-->DEBUG 2018-08-01 16:16:35701 org.apache.http.client.protocol.RequestAddCookies,853- CookieSpec selected: ignoreCookies
+Logger-->DEBUG 2018-08-01 16:16:35703 org.apache.http.client.protocol.RequestAuthCache,855- Auth cache not set in the context
+Logger-->DEBUG 2018-08-01 16:16:35703 org.apache.http.client.protocol.RequestTargetAuthentication,855- Target auth state: UNCHALLENGED
+Logger-->DEBUG 2018-08-01 16:16:35704 org.apache.http.client.protocol.RequestProxyAuthentication,856- Proxy auth state: UNCHALLENGED
+Logger-->DEBUG 2018-08-01 16:16:35705 org.apache.http.impl.client.DefaultHttpClient,857- Attempt 1 to execute request
+Logger-->DEBUG 2018-08-01 16:16:35705 org.apache.http.impl.conn.DefaultClientConnection,857- Sending request: POST /gateway HTTP/1.1
+Logger-->DEBUG 2018-08-01 16:16:35706 org.apache.http.wire,858-  >> "POST /gateway HTTP/1.1[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:16:35707 org.apache.http.wire,859-  >> "Accept: */*[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:16:35707 org.apache.http.wire,859-  >> "Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:16:35708 org.apache.http.wire,860-  >> "Content-Length: 58[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:16:35709 org.apache.http.wire,861-  >> "Host: test.xk.api.myzs.com[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:16:35709 org.apache.http.wire,861-  >> "Connection: Keep-Alive[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:16:35710 org.apache.http.wire,862-  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_73)[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:16:35710 org.apache.http.wire,862-  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:16:35710 org.apache.http.wire,862-  >> "[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:16:35711 org.apache.http.headers,863- >> POST /gateway HTTP/1.1
+Logger-->DEBUG 2018-08-01 16:16:35711 org.apache.http.headers,863- >> Accept: */*
+Logger-->DEBUG 2018-08-01 16:16:35711 org.apache.http.headers,863- >> Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1
+Logger-->DEBUG 2018-08-01 16:16:35711 org.apache.http.headers,863- >> Content-Length: 58
+Logger-->DEBUG 2018-08-01 16:16:35712 org.apache.http.headers,864- >> Host: test.xk.api.myzs.com
+Logger-->DEBUG 2018-08-01 16:16:35712 org.apache.http.headers,864- >> Connection: Keep-Alive
+Logger-->DEBUG 2018-08-01 16:16:35712 org.apache.http.headers,864- >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_73)
+Logger-->DEBUG 2018-08-01 16:16:35712 org.apache.http.headers,864- >> Accept-Encoding: gzip,deflate
+Logger-->DEBUG 2018-08-01 16:16:35713 org.apache.http.wire,865-  >> "password=a123456&method=kkpb.user.login&mobile=18534163095"
+Logger-->DEBUG 2018-08-01 16:16:35784 org.apache.http.wire,936-  << "HTTP/1.1 200 OK[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:16:35787 org.apache.http.wire,939-  << "Server: nginx/1.4.6 (Ubuntu)[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:16:35787 org.apache.http.wire,939-  << "Date: Wed, 01 Aug 2018 08:16:39 GMT[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:16:35788 org.apache.http.wire,940-  << "Content-Type: application/json[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:16:35788 org.apache.http.wire,940-  << "Transfer-Encoding: chunked[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:16:35788 org.apache.http.wire,940-  << "Connection: keep-alive[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:16:35789 org.apache.http.wire,941-  << "X-Powered-By: PHP/5.5.9-1ubuntu4.19[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:16:35789 org.apache.http.wire,941-  << "[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:16:35790 org.apache.http.impl.conn.DefaultClientConnection,942- Receiving response: HTTP/1.1 200 OK
+Logger-->DEBUG 2018-08-01 16:16:35790 org.apache.http.headers,942- << HTTP/1.1 200 OK
+Logger-->DEBUG 2018-08-01 16:16:35790 org.apache.http.headers,942- << Server: nginx/1.4.6 (Ubuntu)
+Logger-->DEBUG 2018-08-01 16:16:35791 org.apache.http.headers,943- << Date: Wed, 01 Aug 2018 08:16:39 GMT
+Logger-->DEBUG 2018-08-01 16:16:35791 org.apache.http.headers,943- << Content-Type: application/json
+Logger-->DEBUG 2018-08-01 16:16:35791 org.apache.http.headers,943- << Transfer-Encoding: chunked
+Logger-->DEBUG 2018-08-01 16:16:35792 org.apache.http.headers,944- << Connection: keep-alive
+Logger-->DEBUG 2018-08-01 16:16:35792 org.apache.http.headers,944- << X-Powered-By: PHP/5.5.9-1ubuntu4.19
+Logger-->DEBUG 2018-08-01 16:16:35796 org.apache.http.impl.client.DefaultHttpClient,948- Connection can be kept alive indefinitely
+Logger-->DEBUG 2018-08-01 16:16:35814 io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder,966- Parsing response as: application/json
+Logger-->DEBUG 2018-08-01 16:16:35815 io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder,967- Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+Logger-->DEBUG 2018-08-01 16:16:35855 org.apache.http.wire,1007-  << "37[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:16:35855 org.apache.http.wire,1007-  << "{"code":201,"message":"\u5bc6\u7801\u4e0d\u6b63\u786e"}"
+Logger-->DEBUG 2018-08-01 16:16:35856 org.apache.http.wire,1008-  << "[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:16:35857 org.apache.http.wire,1009-  << "0[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:16:35857 org.apache.http.wire,1009-  << "[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:16:35857 org.apache.http.impl.conn.BasicClientConnectionManager,1009- Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@16c63f5
+Logger-->DEBUG 2018-08-01 16:16:35858 org.apache.http.impl.conn.BasicClientConnectionManager,1010- Connection can be kept alive indefinitely
+Logger-->DEBUG 2018-08-01 16:20:37764 java.lang.String,0- test_funciton_name:CsvReader;******LogMessage:行数:1********1,正常登录,post,http://test.xk.api.myzs.com/, gateway,application/x-www-form-urlencoded,password=a123456&method=kkpb.user.login&mobile=18534163095,正常登录
+Logger-->DEBUG 2018-08-01 16:20:37768 java.lang.String,4- test_funciton_name:CsvReader;******LogMessage:casename:正常登录--------------Param:password=a123456&method=kkpb.user.login&mobile=18534163095
+Logger-->DEBUG 2018-08-01 16:20:37769 java.lang.String,5- test_funciton_name:CsvReader;******LogMessage:行数:2********2,正常登录但账号错误,post,http://test.xk.api.myzs.com/, gateway,application/x-www-form-urlencoded,password=aaaaaa6&method=kkpb.user.login&mobile=18534163095,不正确
+Logger-->DEBUG 2018-08-01 16:20:37771 java.lang.String,7- test_funciton_name:CsvReader;******LogMessage:casename:正常登录但账号错误--------------Param:password=aaaaaa6&method=kkpb.user.login&mobile=18534163095
+Logger-->DEBUG 2018-08-01 16:20:38572 org.apache.http.impl.conn.BasicClientConnectionManager,808- Get connection for route {}->http://test.xk.api.myzs.com:80
+Logger-->DEBUG 2018-08-01 16:20:38585 org.apache.http.impl.conn.DefaultClientConnectionOperator,821- Connecting to test.xk.api.myzs.com:80
+Logger-->DEBUG 2018-08-01 16:20:38686 org.apache.http.client.protocol.RequestAddCookies,922- CookieSpec selected: ignoreCookies
+Logger-->DEBUG 2018-08-01 16:20:38688 org.apache.http.client.protocol.RequestAuthCache,924- Auth cache not set in the context
+Logger-->DEBUG 2018-08-01 16:20:38688 org.apache.http.client.protocol.RequestTargetAuthentication,924- Target auth state: UNCHALLENGED
+Logger-->DEBUG 2018-08-01 16:20:38689 org.apache.http.client.protocol.RequestProxyAuthentication,925- Proxy auth state: UNCHALLENGED
+Logger-->DEBUG 2018-08-01 16:20:38691 org.apache.http.impl.client.DefaultHttpClient,927- Attempt 1 to execute request
+Logger-->DEBUG 2018-08-01 16:20:38691 org.apache.http.impl.conn.DefaultClientConnection,927- Sending request: POST /gateway HTTP/1.1
+Logger-->DEBUG 2018-08-01 16:20:38692 org.apache.http.wire,928-  >> "POST /gateway HTTP/1.1[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:20:38693 org.apache.http.wire,929-  >> "Accept: */*[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:20:38694 org.apache.http.wire,930-  >> "Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:20:38694 org.apache.http.wire,930-  >> "Content-Length: 58[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:20:38696 org.apache.http.wire,932-  >> "Host: test.xk.api.myzs.com[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:20:38696 org.apache.http.wire,932-  >> "Connection: Keep-Alive[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:20:38697 org.apache.http.wire,933-  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_73)[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:20:38697 org.apache.http.wire,933-  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:20:38698 org.apache.http.wire,934-  >> "[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:20:38698 org.apache.http.headers,934- >> POST /gateway HTTP/1.1
+Logger-->DEBUG 2018-08-01 16:20:38698 org.apache.http.headers,934- >> Accept: */*
+Logger-->DEBUG 2018-08-01 16:20:38699 org.apache.http.headers,935- >> Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1
+Logger-->DEBUG 2018-08-01 16:20:38699 org.apache.http.headers,935- >> Content-Length: 58
+Logger-->DEBUG 2018-08-01 16:20:38700 org.apache.http.headers,936- >> Host: test.xk.api.myzs.com
+Logger-->DEBUG 2018-08-01 16:20:38700 org.apache.http.headers,936- >> Connection: Keep-Alive
+Logger-->DEBUG 2018-08-01 16:20:38700 org.apache.http.headers,936- >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_73)
+Logger-->DEBUG 2018-08-01 16:20:38701 org.apache.http.headers,937- >> Accept-Encoding: gzip,deflate
+Logger-->DEBUG 2018-08-01 16:20:38702 org.apache.http.wire,938-  >> "password=a123456&method=kkpb.user.login&mobile=18534163095"
+Logger-->DEBUG 2018-08-01 16:20:38757 org.apache.http.wire,993-  << "HTTP/1.1 200 OK[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:20:38759 org.apache.http.wire,995-  << "Server: nginx/1.4.6 (Ubuntu)[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:20:38759 org.apache.http.wire,995-  << "Date: Wed, 01 Aug 2018 08:20:42 GMT[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:20:38759 org.apache.http.wire,995-  << "Content-Type: application/json[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:20:38760 org.apache.http.wire,996-  << "Transfer-Encoding: chunked[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:20:38760 org.apache.http.wire,996-  << "Connection: keep-alive[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:20:38760 org.apache.http.wire,996-  << "X-Powered-By: PHP/5.5.9-1ubuntu4.19[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:20:38761 org.apache.http.wire,997-  << "[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:20:38761 org.apache.http.impl.conn.DefaultClientConnection,997- Receiving response: HTTP/1.1 200 OK
+Logger-->DEBUG 2018-08-01 16:20:38762 org.apache.http.headers,998- << HTTP/1.1 200 OK
+Logger-->DEBUG 2018-08-01 16:20:38762 org.apache.http.headers,998- << Server: nginx/1.4.6 (Ubuntu)
+Logger-->DEBUG 2018-08-01 16:20:38763 org.apache.http.headers,999- << Date: Wed, 01 Aug 2018 08:20:42 GMT
+Logger-->DEBUG 2018-08-01 16:20:38763 org.apache.http.headers,999- << Content-Type: application/json
+Logger-->DEBUG 2018-08-01 16:20:38764 org.apache.http.headers,1000- << Transfer-Encoding: chunked
+Logger-->DEBUG 2018-08-01 16:20:38764 org.apache.http.headers,1000- << Connection: keep-alive
+Logger-->DEBUG 2018-08-01 16:20:38764 org.apache.http.headers,1000- << X-Powered-By: PHP/5.5.9-1ubuntu4.19
+Logger-->DEBUG 2018-08-01 16:20:38768 org.apache.http.impl.client.DefaultHttpClient,1004- Connection can be kept alive indefinitely
+Logger-->DEBUG 2018-08-01 16:20:38781 io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder,1017- Parsing response as: application/json
+Logger-->DEBUG 2018-08-01 16:20:38782 io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder,1018- Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+Logger-->DEBUG 2018-08-01 16:20:38809 org.apache.http.wire,1045-  << "37[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:20:38810 org.apache.http.wire,1046-  << "{"code":201,"message":"\u5bc6\u7801\u4e0d\u6b63\u786e"}"
+Logger-->DEBUG 2018-08-01 16:20:38811 org.apache.http.wire,1047-  << "[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:20:38811 org.apache.http.wire,1047-  << "0[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:20:38811 org.apache.http.wire,1047-  << "[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:20:38812 org.apache.http.impl.conn.BasicClientConnectionManager,1048- Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@16c63f5
+Logger-->DEBUG 2018-08-01 16:20:38812 org.apache.http.impl.conn.BasicClientConnectionManager,1048- Connection can be kept alive indefinitely
+Logger-->DEBUG 2018-08-01 16:27:07601 java.lang.String,0- test_funciton_name:CsvReader;******LogMessage:行数:1********1,正常登录,post,http://test.xk.api.myzs.com/, gateway,application/x-www-form-urlencoded,password=a123456&method=kkpb.user.login&mobile=18534163095,正常登录
+Logger-->DEBUG 2018-08-01 16:27:07605 java.lang.String,4- test_funciton_name:CsvReader;******LogMessage:casename:正常登录--------------Param:password=a123456&method=kkpb.user.login&mobile=18534163095
+Logger-->DEBUG 2018-08-01 16:27:07608 java.lang.String,7- test_funciton_name:CsvReader;******LogMessage:行数:2********2,正常登录但账号错误,post,http://test.xk.api.myzs.com/, gateway,application/x-www-form-urlencoded,password=aaaaaa6&method=kkpb.user.login&mobile=18534163095,不正确
+Logger-->DEBUG 2018-08-01 16:27:07610 java.lang.String,9- test_funciton_name:CsvReader;******LogMessage:casename:正常登录但账号错误--------------Param:password=aaaaaa6&method=kkpb.user.login&mobile=18534163095
+Logger-->DEBUG 2018-08-01 16:27:08384 org.apache.http.impl.conn.BasicClientConnectionManager,783- Get connection for route {}->http://test.xk.api.myzs.com:80
+Logger-->DEBUG 2018-08-01 16:27:08393 org.apache.http.impl.conn.DefaultClientConnectionOperator,792- Connecting to test.xk.api.myzs.com:80
+Logger-->DEBUG 2018-08-01 16:27:08455 org.apache.http.client.protocol.RequestAddCookies,854- CookieSpec selected: ignoreCookies
+Logger-->DEBUG 2018-08-01 16:27:08457 org.apache.http.client.protocol.RequestAuthCache,856- Auth cache not set in the context
+Logger-->DEBUG 2018-08-01 16:27:08457 org.apache.http.client.protocol.RequestTargetAuthentication,856- Target auth state: UNCHALLENGED
+Logger-->DEBUG 2018-08-01 16:27:08458 org.apache.http.client.protocol.RequestProxyAuthentication,857- Proxy auth state: UNCHALLENGED
+Logger-->DEBUG 2018-08-01 16:27:08459 org.apache.http.impl.client.DefaultHttpClient,858- Attempt 1 to execute request
+Logger-->DEBUG 2018-08-01 16:27:08460 org.apache.http.impl.conn.DefaultClientConnection,859- Sending request: POST /gateway HTTP/1.1
+Logger-->DEBUG 2018-08-01 16:27:08460 org.apache.http.wire,859-  >> "POST /gateway HTTP/1.1[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:27:08462 org.apache.http.wire,861-  >> "Accept: */*[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:27:08463 org.apache.http.wire,862-  >> "Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:27:08463 org.apache.http.wire,862-  >> "Content-Length: 58[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:27:08464 org.apache.http.wire,863-  >> "Host: test.xk.api.myzs.com[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:27:08464 org.apache.http.wire,863-  >> "Connection: Keep-Alive[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:27:08465 org.apache.http.wire,864-  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_73)[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:27:08465 org.apache.http.wire,864-  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:27:08465 org.apache.http.wire,864-  >> "[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:27:08466 org.apache.http.headers,865- >> POST /gateway HTTP/1.1
+Logger-->DEBUG 2018-08-01 16:27:08466 org.apache.http.headers,865- >> Accept: */*
+Logger-->DEBUG 2018-08-01 16:27:08466 org.apache.http.headers,865- >> Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1
+Logger-->DEBUG 2018-08-01 16:27:08466 org.apache.http.headers,865- >> Content-Length: 58
+Logger-->DEBUG 2018-08-01 16:27:08467 org.apache.http.headers,866- >> Host: test.xk.api.myzs.com
+Logger-->DEBUG 2018-08-01 16:27:08467 org.apache.http.headers,866- >> Connection: Keep-Alive
+Logger-->DEBUG 2018-08-01 16:27:08467 org.apache.http.headers,866- >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_73)
+Logger-->DEBUG 2018-08-01 16:27:08468 org.apache.http.headers,867- >> Accept-Encoding: gzip,deflate
+Logger-->DEBUG 2018-08-01 16:27:08468 org.apache.http.wire,867-  >> "password=a123456&method=kkpb.user.login&mobile=18534163095"
+Logger-->DEBUG 2018-08-01 16:27:08540 org.apache.http.wire,939-  << "HTTP/1.1 200 OK[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:27:08542 org.apache.http.wire,941-  << "Server: nginx/1.4.6 (Ubuntu)[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:27:08542 org.apache.http.wire,941-  << "Date: Wed, 01 Aug 2018 08:27:12 GMT[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:27:08543 org.apache.http.wire,942-  << "Content-Type: application/json[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:27:08543 org.apache.http.wire,942-  << "Transfer-Encoding: chunked[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:27:08543 org.apache.http.wire,942-  << "Connection: keep-alive[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:27:08544 org.apache.http.wire,943-  << "X-Powered-By: PHP/5.5.9-1ubuntu4.19[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:27:08544 org.apache.http.wire,943-  << "[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:27:08545 org.apache.http.impl.conn.DefaultClientConnection,944- Receiving response: HTTP/1.1 200 OK
+Logger-->DEBUG 2018-08-01 16:27:08545 org.apache.http.headers,944- << HTTP/1.1 200 OK
+Logger-->DEBUG 2018-08-01 16:27:08545 org.apache.http.headers,944- << Server: nginx/1.4.6 (Ubuntu)
+Logger-->DEBUG 2018-08-01 16:27:08546 org.apache.http.headers,945- << Date: Wed, 01 Aug 2018 08:27:12 GMT
+Logger-->DEBUG 2018-08-01 16:27:08546 org.apache.http.headers,945- << Content-Type: application/json
+Logger-->DEBUG 2018-08-01 16:27:08546 org.apache.http.headers,945- << Transfer-Encoding: chunked
+Logger-->DEBUG 2018-08-01 16:27:08546 org.apache.http.headers,945- << Connection: keep-alive
+Logger-->DEBUG 2018-08-01 16:27:08547 org.apache.http.headers,946- << X-Powered-By: PHP/5.5.9-1ubuntu4.19
+Logger-->DEBUG 2018-08-01 16:27:08551 org.apache.http.impl.client.DefaultHttpClient,950- Connection can be kept alive indefinitely
+Logger-->DEBUG 2018-08-01 16:27:08563 io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder,962- Parsing response as: application/json
+Logger-->DEBUG 2018-08-01 16:27:08564 io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder,963- Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+Logger-->DEBUG 2018-08-01 16:27:08593 org.apache.http.wire,992-  << "37[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:27:08594 org.apache.http.wire,993-  << "{"code":201,"message":"\u5bc6\u7801\u4e0d\u6b63\u786e"}"
+Logger-->DEBUG 2018-08-01 16:27:08600 org.apache.http.wire,999-  << "[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:27:08601 org.apache.http.wire,1000-  << "0[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:27:08601 org.apache.http.wire,1000-  << "[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:27:08601 org.apache.http.impl.conn.BasicClientConnectionManager,1000- Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@16c63f5
+Logger-->DEBUG 2018-08-01 16:27:08601 org.apache.http.impl.conn.BasicClientConnectionManager,1000- Connection can be kept alive indefinitely
+Logger-->DEBUG 2018-08-01 16:27:37775 java.lang.String,0- test_funciton_name:CsvReader;******LogMessage:行数:1********1,正常登录,post,http://test.xk.api.myzs.com/, gateway,application/x-www-form-urlencoded,password=a123456&method=kkpb.user.login&mobile=18534163095,正常登录
+Logger-->DEBUG 2018-08-01 16:27:37778 java.lang.String,3- test_funciton_name:CsvReader;******LogMessage:casename:正常登录--------------Param:password=a123456&method=kkpb.user.login&mobile=18534163095
+Logger-->DEBUG 2018-08-01 16:27:37780 java.lang.String,5- test_funciton_name:CsvReader;******LogMessage:行数:2********2,正常登录但账号错误,post,http://test.xk.api.myzs.com/, gateway,application/x-www-form-urlencoded,password=aaaaaa6&method=kkpb.user.login&mobile=18534163095,不正确
+Logger-->DEBUG 2018-08-01 16:27:37782 java.lang.String,7- test_funciton_name:CsvReader;******LogMessage:casename:正常登录但账号错误--------------Param:password=aaaaaa6&method=kkpb.user.login&mobile=18534163095
+Logger-->DEBUG 2018-08-01 16:27:38625 org.apache.http.impl.conn.BasicClientConnectionManager,850- Get connection for route {}->http://test.xk.api.myzs.com:80
+Logger-->DEBUG 2018-08-01 16:27:38636 org.apache.http.impl.conn.DefaultClientConnectionOperator,861- Connecting to test.xk.api.myzs.com:80
+Logger-->DEBUG 2018-08-01 16:27:38685 org.apache.http.client.protocol.RequestAddCookies,910- CookieSpec selected: ignoreCookies
+Logger-->DEBUG 2018-08-01 16:27:38687 org.apache.http.client.protocol.RequestAuthCache,912- Auth cache not set in the context
+Logger-->DEBUG 2018-08-01 16:27:38688 org.apache.http.client.protocol.RequestTargetAuthentication,913- Target auth state: UNCHALLENGED
+Logger-->DEBUG 2018-08-01 16:27:38688 org.apache.http.client.protocol.RequestProxyAuthentication,913- Proxy auth state: UNCHALLENGED
+Logger-->DEBUG 2018-08-01 16:27:38690 org.apache.http.impl.client.DefaultHttpClient,915- Attempt 1 to execute request
+Logger-->DEBUG 2018-08-01 16:27:38690 org.apache.http.impl.conn.DefaultClientConnection,915- Sending request: POST /gateway HTTP/1.1
+Logger-->DEBUG 2018-08-01 16:27:38690 org.apache.http.wire,915-  >> "POST /gateway HTTP/1.1[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:27:38691 org.apache.http.wire,916-  >> "Accept: */*[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:27:38692 org.apache.http.wire,917-  >> "Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:27:38692 org.apache.http.wire,917-  >> "Content-Length: 58[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:27:38693 org.apache.http.wire,918-  >> "Host: test.xk.api.myzs.com[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:27:38693 org.apache.http.wire,918-  >> "Connection: Keep-Alive[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:27:38694 org.apache.http.wire,919-  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_73)[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:27:38694 org.apache.http.wire,919-  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:27:38694 org.apache.http.wire,919-  >> "[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:27:38695 org.apache.http.headers,920- >> POST /gateway HTTP/1.1
+Logger-->DEBUG 2018-08-01 16:27:38695 org.apache.http.headers,920- >> Accept: */*
+Logger-->DEBUG 2018-08-01 16:27:38695 org.apache.http.headers,920- >> Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1
+Logger-->DEBUG 2018-08-01 16:27:38696 org.apache.http.headers,921- >> Content-Length: 58
+Logger-->DEBUG 2018-08-01 16:27:38696 org.apache.http.headers,921- >> Host: test.xk.api.myzs.com
+Logger-->DEBUG 2018-08-01 16:27:38696 org.apache.http.headers,921- >> Connection: Keep-Alive
+Logger-->DEBUG 2018-08-01 16:27:38696 org.apache.http.headers,921- >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_73)
+Logger-->DEBUG 2018-08-01 16:27:38697 org.apache.http.headers,922- >> Accept-Encoding: gzip,deflate
+Logger-->DEBUG 2018-08-01 16:27:38697 org.apache.http.wire,922-  >> "password=a123456&method=kkpb.user.login&mobile=18534163095"
+Logger-->DEBUG 2018-08-01 16:27:38755 org.apache.http.wire,980-  << "HTTP/1.1 200 OK[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:27:38757 org.apache.http.wire,982-  << "Server: nginx/1.4.6 (Ubuntu)[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:27:38757 org.apache.http.wire,982-  << "Date: Wed, 01 Aug 2018 08:27:42 GMT[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:27:38758 org.apache.http.wire,983-  << "Content-Type: application/json[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:27:38758 org.apache.http.wire,983-  << "Transfer-Encoding: chunked[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:27:38758 org.apache.http.wire,983-  << "Connection: keep-alive[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:27:38759 org.apache.http.wire,984-  << "X-Powered-By: PHP/5.5.9-1ubuntu4.19[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:27:38759 org.apache.http.wire,984-  << "[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:27:38760 org.apache.http.impl.conn.DefaultClientConnection,985- Receiving response: HTTP/1.1 200 OK
+Logger-->DEBUG 2018-08-01 16:27:38761 org.apache.http.headers,986- << HTTP/1.1 200 OK
+Logger-->DEBUG 2018-08-01 16:27:38761 org.apache.http.headers,986- << Server: nginx/1.4.6 (Ubuntu)
+Logger-->DEBUG 2018-08-01 16:27:38761 org.apache.http.headers,986- << Date: Wed, 01 Aug 2018 08:27:42 GMT
+Logger-->DEBUG 2018-08-01 16:27:38761 org.apache.http.headers,986- << Content-Type: application/json
+Logger-->DEBUG 2018-08-01 16:27:38762 org.apache.http.headers,987- << Transfer-Encoding: chunked
+Logger-->DEBUG 2018-08-01 16:27:38762 org.apache.http.headers,987- << Connection: keep-alive
+Logger-->DEBUG 2018-08-01 16:27:38762 org.apache.http.headers,987- << X-Powered-By: PHP/5.5.9-1ubuntu4.19
+Logger-->DEBUG 2018-08-01 16:27:38766 org.apache.http.impl.client.DefaultHttpClient,991- Connection can be kept alive indefinitely
+Logger-->DEBUG 2018-08-01 16:27:38783 io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder,1008- Parsing response as: application/json
+Logger-->DEBUG 2018-08-01 16:27:38784 io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder,1009- Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+Logger-->DEBUG 2018-08-01 16:27:38814 org.apache.http.wire,1039-  << "37[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:27:38815 org.apache.http.wire,1040-  << "{"code":201,"message":"\u5bc6\u7801\u4e0d\u6b63\u786e"}"
+Logger-->DEBUG 2018-08-01 16:27:38816 org.apache.http.wire,1041-  << "[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:27:38817 org.apache.http.wire,1042-  << "0[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:27:38817 org.apache.http.wire,1042-  << "[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:27:38817 org.apache.http.impl.conn.BasicClientConnectionManager,1042- Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@16c63f5
+Logger-->DEBUG 2018-08-01 16:27:38817 org.apache.http.impl.conn.BasicClientConnectionManager,1042- Connection can be kept alive indefinitely
+Logger-->DEBUG 2018-08-01 16:28:21774 java.lang.String,0- test_funciton_name:CsvReader;******LogMessage:行数:1********1,正常登录,post,http://test.xk.api.myzs.com/, gateway,application/x-www-form-urlencoded,password=a123456&method=kkpb.user.login&mobile=18534163095,正常登录
+Logger-->DEBUG 2018-08-01 16:28:21778 java.lang.String,4- test_funciton_name:CsvReader;******LogMessage:casename:正常登录--------------Param:password=a123456&method=kkpb.user.login&mobile=18534163095
+Logger-->DEBUG 2018-08-01 16:28:21780 java.lang.String,6- test_funciton_name:CsvReader;******LogMessage:行数:2********2,正常登录但账号错误,post,http://test.xk.api.myzs.com/, gateway,application/x-www-form-urlencoded,password=aaaaaa6&method=kkpb.user.login&mobile=18534163095,不正确
+Logger-->DEBUG 2018-08-01 16:28:21782 java.lang.String,8- test_funciton_name:CsvReader;******LogMessage:casename:正常登录但账号错误--------------Param:password=aaaaaa6&method=kkpb.user.login&mobile=18534163095
+Logger-->DEBUG 2018-08-01 16:28:22625 org.apache.http.impl.conn.BasicClientConnectionManager,851- Get connection for route {}->http://test.xk.api.myzs.com:80
+Logger-->DEBUG 2018-08-01 16:28:22632 org.apache.http.impl.conn.DefaultClientConnectionOperator,858- Connecting to test.xk.api.myzs.com:80
+Logger-->DEBUG 2018-08-01 16:28:22693 org.apache.http.client.protocol.RequestAddCookies,919- CookieSpec selected: ignoreCookies
+Logger-->DEBUG 2018-08-01 16:28:22695 org.apache.http.client.protocol.RequestAuthCache,921- Auth cache not set in the context
+Logger-->DEBUG 2018-08-01 16:28:22695 org.apache.http.client.protocol.RequestTargetAuthentication,921- Target auth state: UNCHALLENGED
+Logger-->DEBUG 2018-08-01 16:28:22696 org.apache.http.client.protocol.RequestProxyAuthentication,922- Proxy auth state: UNCHALLENGED
+Logger-->DEBUG 2018-08-01 16:28:22698 org.apache.http.impl.client.DefaultHttpClient,924- Attempt 1 to execute request
+Logger-->DEBUG 2018-08-01 16:28:22698 org.apache.http.impl.conn.DefaultClientConnection,924- Sending request: POST /gateway HTTP/1.1
+Logger-->DEBUG 2018-08-01 16:28:22699 org.apache.http.wire,925-  >> "POST /gateway HTTP/1.1[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:28:22700 org.apache.http.wire,926-  >> "Accept: */*[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:28:22701 org.apache.http.wire,927-  >> "Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:28:22701 org.apache.http.wire,927-  >> "Content-Length: 58[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:28:22702 org.apache.http.wire,928-  >> "Host: test.xk.api.myzs.com[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:28:22703 org.apache.http.wire,929-  >> "Connection: Keep-Alive[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:28:22703 org.apache.http.wire,929-  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_73)[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:28:22703 org.apache.http.wire,929-  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:28:22706 org.apache.http.wire,932-  >> "[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:28:22707 org.apache.http.headers,933- >> POST /gateway HTTP/1.1
+Logger-->DEBUG 2018-08-01 16:28:22707 org.apache.http.headers,933- >> Accept: */*
+Logger-->DEBUG 2018-08-01 16:28:22708 org.apache.http.headers,934- >> Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1
+Logger-->DEBUG 2018-08-01 16:28:22708 org.apache.http.headers,934- >> Content-Length: 58
+Logger-->DEBUG 2018-08-01 16:28:22708 org.apache.http.headers,934- >> Host: test.xk.api.myzs.com
+Logger-->DEBUG 2018-08-01 16:28:22709 org.apache.http.headers,935- >> Connection: Keep-Alive
+Logger-->DEBUG 2018-08-01 16:28:22709 org.apache.http.headers,935- >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_73)
+Logger-->DEBUG 2018-08-01 16:28:22709 org.apache.http.headers,935- >> Accept-Encoding: gzip,deflate
+Logger-->DEBUG 2018-08-01 16:28:22710 org.apache.http.wire,936-  >> "password=a123456&method=kkpb.user.login&mobile=18534163095"
+Logger-->DEBUG 2018-08-01 16:28:22781 org.apache.http.wire,1007-  << "HTTP/1.1 200 OK[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:28:22783 org.apache.http.wire,1009-  << "Server: nginx/1.4.6 (Ubuntu)[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:28:22784 org.apache.http.wire,1010-  << "Date: Wed, 01 Aug 2018 08:28:26 GMT[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:28:22784 org.apache.http.wire,1010-  << "Content-Type: application/json[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:28:22784 org.apache.http.wire,1010-  << "Transfer-Encoding: chunked[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:28:22785 org.apache.http.wire,1011-  << "Connection: keep-alive[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:28:22785 org.apache.http.wire,1011-  << "X-Powered-By: PHP/5.5.9-1ubuntu4.19[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:28:22785 org.apache.http.wire,1011-  << "[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:28:22786 org.apache.http.impl.conn.DefaultClientConnection,1012- Receiving response: HTTP/1.1 200 OK
+Logger-->DEBUG 2018-08-01 16:28:22786 org.apache.http.headers,1012- << HTTP/1.1 200 OK
+Logger-->DEBUG 2018-08-01 16:28:22787 org.apache.http.headers,1013- << Server: nginx/1.4.6 (Ubuntu)
+Logger-->DEBUG 2018-08-01 16:28:22787 org.apache.http.headers,1013- << Date: Wed, 01 Aug 2018 08:28:26 GMT
+Logger-->DEBUG 2018-08-01 16:28:22787 org.apache.http.headers,1013- << Content-Type: application/json
+Logger-->DEBUG 2018-08-01 16:28:22787 org.apache.http.headers,1013- << Transfer-Encoding: chunked
+Logger-->DEBUG 2018-08-01 16:28:22788 org.apache.http.headers,1014- << Connection: keep-alive
+Logger-->DEBUG 2018-08-01 16:28:22788 org.apache.http.headers,1014- << X-Powered-By: PHP/5.5.9-1ubuntu4.19
+Logger-->DEBUG 2018-08-01 16:28:22792 org.apache.http.impl.client.DefaultHttpClient,1018- Connection can be kept alive indefinitely
+Logger-->DEBUG 2018-08-01 16:28:22808 io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder,1034- Parsing response as: application/json
+Logger-->DEBUG 2018-08-01 16:28:22808 io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder,1034- Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+Logger-->DEBUG 2018-08-01 16:28:22843 org.apache.http.wire,1069-  << "37[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:28:22843 org.apache.http.wire,1069-  << "{"code":201,"message":"\u5bc6\u7801\u4e0d\u6b63\u786e"}"
+Logger-->DEBUG 2018-08-01 16:28:22844 org.apache.http.wire,1070-  << "[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:28:22844 org.apache.http.wire,1070-  << "0[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:28:22844 org.apache.http.wire,1070-  << "[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:28:22845 org.apache.http.impl.conn.BasicClientConnectionManager,1071- Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@16c63f5
+Logger-->DEBUG 2018-08-01 16:28:22845 org.apache.http.impl.conn.BasicClientConnectionManager,1071- Connection can be kept alive indefinitely
+Logger-->DEBUG 2018-08-01 16:30:4373 java.lang.String,0- test_funciton_name:CsvReader;******LogMessage:行数:1********1,正常登录,post,http://test.xk.api.myzs.com/, gateway,application/x-www-form-urlencoded,password=dc483e80a7a0bd9ef71d8cf973673924&method=kkpb.user.login&mobile=18534163095,正常登录
+Logger-->DEBUG 2018-08-01 16:30:4378 java.lang.String,5- test_funciton_name:CsvReader;******LogMessage:casename:正常登录--------------Param:password=dc483e80a7a0bd9ef71d8cf973673924&method=kkpb.user.login&mobile=18534163095
+Logger-->DEBUG 2018-08-01 16:30:4380 java.lang.String,7- test_funciton_name:CsvReader;******LogMessage:行数:2********2,正常登录但账号错误,post,http://test.xk.api.myzs.com/, gateway,application/x-www-form-urlencoded,password=aaaaaa6&method=kkpb.user.login&mobile=18534163095,不正确
+Logger-->DEBUG 2018-08-01 16:30:4382 java.lang.String,9- test_funciton_name:CsvReader;******LogMessage:casename:正常登录但账号错误--------------Param:password=aaaaaa6&method=kkpb.user.login&mobile=18534163095
+Logger-->DEBUG 2018-08-01 16:30:43922 org.apache.http.impl.conn.BasicClientConnectionManager,849- Get connection for route {}->http://test.xk.api.myzs.com:80
+Logger-->DEBUG 2018-08-01 16:30:43934 org.apache.http.impl.conn.DefaultClientConnectionOperator,861- Connecting to test.xk.api.myzs.com:80
+Logger-->DEBUG 2018-08-01 16:30:43995 org.apache.http.client.protocol.RequestAddCookies,922- CookieSpec selected: ignoreCookies
+Logger-->DEBUG 2018-08-01 16:30:43998 org.apache.http.client.protocol.RequestAuthCache,925- Auth cache not set in the context
+Logger-->DEBUG 2018-08-01 16:30:43998 org.apache.http.client.protocol.RequestTargetAuthentication,925- Target auth state: UNCHALLENGED
+Logger-->DEBUG 2018-08-01 16:30:43999 org.apache.http.client.protocol.RequestProxyAuthentication,926- Proxy auth state: UNCHALLENGED
+Logger-->DEBUG 2018-08-01 16:30:441 org.apache.http.impl.client.DefaultHttpClient,928- Attempt 1 to execute request
+Logger-->DEBUG 2018-08-01 16:30:441 org.apache.http.impl.conn.DefaultClientConnection,928- Sending request: POST /gateway HTTP/1.1
+Logger-->DEBUG 2018-08-01 16:30:442 org.apache.http.wire,929-  >> "POST /gateway HTTP/1.1[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:30:443 org.apache.http.wire,930-  >> "Accept: */*[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:30:443 org.apache.http.wire,930-  >> "Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:30:444 org.apache.http.wire,931-  >> "Content-Length: 83[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:30:445 org.apache.http.wire,932-  >> "Host: test.xk.api.myzs.com[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:30:445 org.apache.http.wire,932-  >> "Connection: Keep-Alive[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:30:445 org.apache.http.wire,932-  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_73)[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:30:446 org.apache.http.wire,933-  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:30:446 org.apache.http.wire,933-  >> "[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:30:446 org.apache.http.headers,933- >> POST /gateway HTTP/1.1
+Logger-->DEBUG 2018-08-01 16:30:447 org.apache.http.headers,934- >> Accept: */*
+Logger-->DEBUG 2018-08-01 16:30:447 org.apache.http.headers,934- >> Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1
+Logger-->DEBUG 2018-08-01 16:30:448 org.apache.http.headers,935- >> Content-Length: 83
+Logger-->DEBUG 2018-08-01 16:30:448 org.apache.http.headers,935- >> Host: test.xk.api.myzs.com
+Logger-->DEBUG 2018-08-01 16:30:448 org.apache.http.headers,935- >> Connection: Keep-Alive
+Logger-->DEBUG 2018-08-01 16:30:449 org.apache.http.headers,936- >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_73)
+Logger-->DEBUG 2018-08-01 16:30:449 org.apache.http.headers,936- >> Accept-Encoding: gzip,deflate
+Logger-->DEBUG 2018-08-01 16:30:449 org.apache.http.wire,936-  >> "password=dc483e80a7a0bd9ef71d8cf973673924&method=kkpb.user.login&mobile=18534163095"
+Logger-->DEBUG 2018-08-01 16:30:4489 org.apache.http.wire,1016-  << "HTTP/1.1 200 OK[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:30:4490 org.apache.http.wire,1017-  << "Server: nginx/1.4.6 (Ubuntu)[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:30:4491 org.apache.http.wire,1018-  << "Date: Wed, 01 Aug 2018 08:30:47 GMT[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:30:4491 org.apache.http.wire,1018-  << "Content-Type: application/json[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:30:4491 org.apache.http.wire,1018-  << "Transfer-Encoding: chunked[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:30:4491 org.apache.http.wire,1018-  << "Connection: keep-alive[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:30:4492 org.apache.http.wire,1019-  << "X-Powered-By: PHP/5.5.9-1ubuntu4.19[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:30:4492 org.apache.http.wire,1019-  << "[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:30:4493 org.apache.http.impl.conn.DefaultClientConnection,1020- Receiving response: HTTP/1.1 200 OK
+Logger-->DEBUG 2018-08-01 16:30:4493 org.apache.http.headers,1020- << HTTP/1.1 200 OK
+Logger-->DEBUG 2018-08-01 16:30:4493 org.apache.http.headers,1020- << Server: nginx/1.4.6 (Ubuntu)
+Logger-->DEBUG 2018-08-01 16:30:4494 org.apache.http.headers,1021- << Date: Wed, 01 Aug 2018 08:30:47 GMT
+Logger-->DEBUG 2018-08-01 16:30:4494 org.apache.http.headers,1021- << Content-Type: application/json
+Logger-->DEBUG 2018-08-01 16:30:4494 org.apache.http.headers,1021- << Transfer-Encoding: chunked
+Logger-->DEBUG 2018-08-01 16:30:4494 org.apache.http.headers,1021- << Connection: keep-alive
+Logger-->DEBUG 2018-08-01 16:30:4495 org.apache.http.headers,1022- << X-Powered-By: PHP/5.5.9-1ubuntu4.19
+Logger-->DEBUG 2018-08-01 16:30:4498 org.apache.http.impl.client.DefaultHttpClient,1025- Connection can be kept alive indefinitely
+Logger-->DEBUG 2018-08-01 16:30:44113 io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder,1040- Parsing response as: application/json
+Logger-->DEBUG 2018-08-01 16:30:44113 io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder,1040- Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+Logger-->DEBUG 2018-08-01 16:30:44143 org.apache.http.wire,1070-  << "19f[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:30:44143 org.apache.http.wire,1070-  << "{"code":200,"message":"\u767b\u9646\u6210\u529f","data":{"user_id":"411730","mobile":"18534163095","isenabled":"99","jgid":"160a3797c801aa68c5b","guid":"DD89DF4CE87CA42AE31D5B6EE6F70E17","avatar":"http:\/\/files.kkpbcdn.com\/2017-12-11-11-08-496c8cbb89980243fb1735f5058e8323d7.png","city_id":"410100","real_name":"\u5404\u79cd\u5404\u6837","role_id":"9","team_id":"1","password":"dc483e80a7a0bd9ef71d8cf973673924"}}"
+Logger-->DEBUG 2018-08-01 16:30:44144 org.apache.http.wire,1071-  << "[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:30:44144 org.apache.http.wire,1071-  << "0[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:30:44144 org.apache.http.wire,1071-  << "[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:30:44145 org.apache.http.impl.conn.BasicClientConnectionManager,1072- Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@16c63f5
+Logger-->DEBUG 2018-08-01 16:30:44145 org.apache.http.impl.conn.BasicClientConnectionManager,1072- Connection can be kept alive indefinitely
+Logger-->DEBUG 2018-08-01 16:31:36452 java.lang.String,0- test_funciton_name:CsvReader;******LogMessage:行数:1********1,正常登录,post,http://test.xk.api.myzs.com/, gateway,application/x-www-form-urlencoded,password=dc483e80a7a0bd9ef71d8cf973673924&method=kkpb.user.login&mobile=18534163095,登陆成功
+Logger-->DEBUG 2018-08-01 16:31:36456 java.lang.String,4- test_funciton_name:CsvReader;******LogMessage:casename:正常登录--------------Param:password=dc483e80a7a0bd9ef71d8cf973673924&method=kkpb.user.login&mobile=18534163095
+Logger-->DEBUG 2018-08-01 16:31:36457 java.lang.String,5- test_funciton_name:CsvReader;******LogMessage:行数:2********2,正常登录但账号错误,post,http://test.xk.api.myzs.com/, gateway,application/x-www-form-urlencoded,password=aaaaaa6&method=kkpb.user.login&mobile=18534163095,不正确
+Logger-->DEBUG 2018-08-01 16:31:36459 java.lang.String,7- test_funciton_name:CsvReader;******LogMessage:casename:正常登录但账号错误--------------Param:password=aaaaaa6&method=kkpb.user.login&mobile=18534163095
+Logger-->DEBUG 2018-08-01 16:31:37282 org.apache.http.impl.conn.BasicClientConnectionManager,830- Get connection for route {}->http://test.xk.api.myzs.com:80
+Logger-->DEBUG 2018-08-01 16:31:37291 org.apache.http.impl.conn.DefaultClientConnectionOperator,839- Connecting to test.xk.api.myzs.com:80
+Logger-->DEBUG 2018-08-01 16:31:37360 org.apache.http.client.protocol.RequestAddCookies,908- CookieSpec selected: ignoreCookies
+Logger-->DEBUG 2018-08-01 16:31:37362 org.apache.http.client.protocol.RequestAuthCache,910- Auth cache not set in the context
+Logger-->DEBUG 2018-08-01 16:31:37362 org.apache.http.client.protocol.RequestTargetAuthentication,910- Target auth state: UNCHALLENGED
+Logger-->DEBUG 2018-08-01 16:31:37363 org.apache.http.client.protocol.RequestProxyAuthentication,911- Proxy auth state: UNCHALLENGED
+Logger-->DEBUG 2018-08-01 16:31:37364 org.apache.http.impl.client.DefaultHttpClient,912- Attempt 1 to execute request
+Logger-->DEBUG 2018-08-01 16:31:37364 org.apache.http.impl.conn.DefaultClientConnection,912- Sending request: POST /gateway HTTP/1.1
+Logger-->DEBUG 2018-08-01 16:31:37365 org.apache.http.wire,913-  >> "POST /gateway HTTP/1.1[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:31:37366 org.apache.http.wire,914-  >> "Accept: */*[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:31:37366 org.apache.http.wire,914-  >> "Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:31:37366 org.apache.http.wire,914-  >> "Content-Length: 83[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:31:37367 org.apache.http.wire,915-  >> "Host: test.xk.api.myzs.com[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:31:37368 org.apache.http.wire,916-  >> "Connection: Keep-Alive[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:31:37368 org.apache.http.wire,916-  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_73)[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:31:37368 org.apache.http.wire,916-  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:31:37369 org.apache.http.wire,917-  >> "[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:31:37369 org.apache.http.headers,917- >> POST /gateway HTTP/1.1
+Logger-->DEBUG 2018-08-01 16:31:37369 org.apache.http.headers,917- >> Accept: */*
+Logger-->DEBUG 2018-08-01 16:31:37370 org.apache.http.headers,918- >> Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1
+Logger-->DEBUG 2018-08-01 16:31:37370 org.apache.http.headers,918- >> Content-Length: 83
+Logger-->DEBUG 2018-08-01 16:31:37370 org.apache.http.headers,918- >> Host: test.xk.api.myzs.com
+Logger-->DEBUG 2018-08-01 16:31:37370 org.apache.http.headers,918- >> Connection: Keep-Alive
+Logger-->DEBUG 2018-08-01 16:31:37371 org.apache.http.headers,919- >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_73)
+Logger-->DEBUG 2018-08-01 16:31:37371 org.apache.http.headers,919- >> Accept-Encoding: gzip,deflate
+Logger-->DEBUG 2018-08-01 16:31:37372 org.apache.http.wire,920-  >> "password=dc483e80a7a0bd9ef71d8cf973673924&method=kkpb.user.login&mobile=18534163095"
+Logger-->DEBUG 2018-08-01 16:31:37465 org.apache.http.wire,1013-  << "HTTP/1.1 200 OK[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:31:37466 org.apache.http.wire,1014-  << "Server: nginx/1.4.6 (Ubuntu)[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:31:37467 org.apache.http.wire,1015-  << "Date: Wed, 01 Aug 2018 08:31:41 GMT[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:31:37467 org.apache.http.wire,1015-  << "Content-Type: application/json[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:31:37468 org.apache.http.wire,1016-  << "Transfer-Encoding: chunked[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:31:37468 org.apache.http.wire,1016-  << "Connection: keep-alive[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:31:37468 org.apache.http.wire,1016-  << "X-Powered-By: PHP/5.5.9-1ubuntu4.19[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:31:37468 org.apache.http.wire,1016-  << "[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:31:37469 org.apache.http.impl.conn.DefaultClientConnection,1017- Receiving response: HTTP/1.1 200 OK
+Logger-->DEBUG 2018-08-01 16:31:37469 org.apache.http.headers,1017- << HTTP/1.1 200 OK
+Logger-->DEBUG 2018-08-01 16:31:37470 org.apache.http.headers,1018- << Server: nginx/1.4.6 (Ubuntu)
+Logger-->DEBUG 2018-08-01 16:31:37470 org.apache.http.headers,1018- << Date: Wed, 01 Aug 2018 08:31:41 GMT
+Logger-->DEBUG 2018-08-01 16:31:37470 org.apache.http.headers,1018- << Content-Type: application/json
+Logger-->DEBUG 2018-08-01 16:31:37470 org.apache.http.headers,1018- << Transfer-Encoding: chunked
+Logger-->DEBUG 2018-08-01 16:31:37471 org.apache.http.headers,1019- << Connection: keep-alive
+Logger-->DEBUG 2018-08-01 16:31:37471 org.apache.http.headers,1019- << X-Powered-By: PHP/5.5.9-1ubuntu4.19
+Logger-->DEBUG 2018-08-01 16:31:37475 org.apache.http.impl.client.DefaultHttpClient,1023- Connection can be kept alive indefinitely
+Logger-->DEBUG 2018-08-01 16:31:37489 io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder,1037- Parsing response as: application/json
+Logger-->DEBUG 2018-08-01 16:31:37490 io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder,1038- Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+Logger-->DEBUG 2018-08-01 16:31:37520 org.apache.http.wire,1068-  << "19f[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:31:37521 org.apache.http.wire,1069-  << "{"code":200,"message":"\u767b\u9646\u6210\u529f","data":{"user_id":"411730","mobile":"18534163095","isenabled":"99","jgid":"160a3797c801aa68c5b","guid":"ED17A245A93FD6C2FB2DBCE523FA7851","avatar":"http:\/\/files.kkpbcdn.com\/2017-12-11-11-08-496c8cbb89980243fb1735f5058e8323d7.png","city_id":"410100","real_name":"\u5404\u79cd\u5404\u6837","role_id":"9","team_id":"1","password":"dc483e80a7a0bd9ef71d8cf973673924"}}"
+Logger-->DEBUG 2018-08-01 16:31:37522 org.apache.http.wire,1070-  << "[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:31:37522 org.apache.http.wire,1070-  << "0[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:31:37522 org.apache.http.wire,1070-  << "[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:31:37522 org.apache.http.impl.conn.BasicClientConnectionManager,1070- Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@16c63f5
+Logger-->DEBUG 2018-08-01 16:31:37523 org.apache.http.impl.conn.BasicClientConnectionManager,1071- Connection can be kept alive indefinitely
+Logger-->DEBUG 2018-08-01 16:32:21357 java.lang.String,1- test_funciton_name:CsvReader;******LogMessage:行数:1********1,正常登录,post,http://test.xk.api.myzs.com/, gateway,application/x-www-form-urlencoded,password=dc483e80a7a0bd9ef71d8cf973673924&method=kkpb.user.login&mobile=18534163095,登陆成功
+Logger-->DEBUG 2018-08-01 16:32:21360 java.lang.String,4- test_funciton_name:CsvReader;******LogMessage:casename:正常登录--------------Param:password=dc483e80a7a0bd9ef71d8cf973673924&method=kkpb.user.login&mobile=18534163095
+Logger-->DEBUG 2018-08-01 16:32:21362 java.lang.String,6- test_funciton_name:CsvReader;******LogMessage:行数:2********2,正常登录但账号错误,post,http://test.xk.api.myzs.com/, gateway,application/x-www-form-urlencoded,password=aaaaaa6&method=kkpb.user.login&mobile=18534163095,不正确
+Logger-->DEBUG 2018-08-01 16:32:21364 java.lang.String,8- test_funciton_name:CsvReader;******LogMessage:casename:正常登录但账号错误--------------Param:password=aaaaaa6&method=kkpb.user.login&mobile=18534163095
+Logger-->DEBUG 2018-08-01 16:32:22167 org.apache.http.impl.conn.BasicClientConnectionManager,811- Get connection for route {}->http://test.xk.api.myzs.com:80
+Logger-->DEBUG 2018-08-01 16:32:22177 org.apache.http.impl.conn.DefaultClientConnectionOperator,821- Connecting to test.xk.api.myzs.com:80
+Logger-->DEBUG 2018-08-01 16:32:22239 org.apache.http.client.protocol.RequestAddCookies,883- CookieSpec selected: ignoreCookies
+Logger-->DEBUG 2018-08-01 16:32:22240 org.apache.http.client.protocol.RequestAuthCache,884- Auth cache not set in the context
+Logger-->DEBUG 2018-08-01 16:32:22241 org.apache.http.client.protocol.RequestTargetAuthentication,885- Target auth state: UNCHALLENGED
+Logger-->DEBUG 2018-08-01 16:32:22241 org.apache.http.client.protocol.RequestProxyAuthentication,885- Proxy auth state: UNCHALLENGED
+Logger-->DEBUG 2018-08-01 16:32:22242 org.apache.http.impl.client.DefaultHttpClient,886- Attempt 1 to execute request
+Logger-->DEBUG 2018-08-01 16:32:22243 org.apache.http.impl.conn.DefaultClientConnection,887- Sending request: POST /gateway HTTP/1.1
+Logger-->DEBUG 2018-08-01 16:32:22243 org.apache.http.wire,887-  >> "POST /gateway HTTP/1.1[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:32:22244 org.apache.http.wire,888-  >> "Accept: */*[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:32:22246 org.apache.http.wire,890-  >> "Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:32:22247 org.apache.http.wire,891-  >> "Content-Length: 83[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:32:22248 org.apache.http.wire,892-  >> "Host: test.xk.api.myzs.com[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:32:22248 org.apache.http.wire,892-  >> "Connection: Keep-Alive[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:32:22249 org.apache.http.wire,893-  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_73)[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:32:22249 org.apache.http.wire,893-  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:32:22249 org.apache.http.wire,893-  >> "[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:32:22250 org.apache.http.headers,894- >> POST /gateway HTTP/1.1
+Logger-->DEBUG 2018-08-01 16:32:22250 org.apache.http.headers,894- >> Accept: */*
+Logger-->DEBUG 2018-08-01 16:32:22250 org.apache.http.headers,894- >> Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1
+Logger-->DEBUG 2018-08-01 16:32:22250 org.apache.http.headers,894- >> Content-Length: 83
+Logger-->DEBUG 2018-08-01 16:32:22251 org.apache.http.headers,895- >> Host: test.xk.api.myzs.com
+Logger-->DEBUG 2018-08-01 16:32:22251 org.apache.http.headers,895- >> Connection: Keep-Alive
+Logger-->DEBUG 2018-08-01 16:32:22251 org.apache.http.headers,895- >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_73)
+Logger-->DEBUG 2018-08-01 16:32:22251 org.apache.http.headers,895- >> Accept-Encoding: gzip,deflate
+Logger-->DEBUG 2018-08-01 16:32:22252 org.apache.http.wire,896-  >> "password=dc483e80a7a0bd9ef71d8cf973673924&method=kkpb.user.login&mobile=18534163095"
+Logger-->DEBUG 2018-08-01 16:32:22332 org.apache.http.wire,976-  << "HTTP/1.1 200 OK[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:32:22334 org.apache.http.wire,978-  << "Server: nginx/1.4.6 (Ubuntu)[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:32:22334 org.apache.http.wire,978-  << "Date: Wed, 01 Aug 2018 08:32:25 GMT[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:32:22334 org.apache.http.wire,978-  << "Content-Type: application/json[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:32:22335 org.apache.http.wire,979-  << "Transfer-Encoding: chunked[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:32:22335 org.apache.http.wire,979-  << "Connection: keep-alive[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:32:22335 org.apache.http.wire,979-  << "X-Powered-By: PHP/5.5.9-1ubuntu4.19[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:32:22336 org.apache.http.wire,980-  << "[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:32:22336 org.apache.http.impl.conn.DefaultClientConnection,980- Receiving response: HTTP/1.1 200 OK
+Logger-->DEBUG 2018-08-01 16:32:22337 org.apache.http.headers,981- << HTTP/1.1 200 OK
+Logger-->DEBUG 2018-08-01 16:32:22337 org.apache.http.headers,981- << Server: nginx/1.4.6 (Ubuntu)
+Logger-->DEBUG 2018-08-01 16:32:22337 org.apache.http.headers,981- << Date: Wed, 01 Aug 2018 08:32:25 GMT
+Logger-->DEBUG 2018-08-01 16:32:22337 org.apache.http.headers,981- << Content-Type: application/json
+Logger-->DEBUG 2018-08-01 16:32:22338 org.apache.http.headers,982- << Transfer-Encoding: chunked
+Logger-->DEBUG 2018-08-01 16:32:22338 org.apache.http.headers,982- << Connection: keep-alive
+Logger-->DEBUG 2018-08-01 16:32:22338 org.apache.http.headers,982- << X-Powered-By: PHP/5.5.9-1ubuntu4.19
+Logger-->DEBUG 2018-08-01 16:32:22343 org.apache.http.impl.client.DefaultHttpClient,987- Connection can be kept alive indefinitely
+Logger-->DEBUG 2018-08-01 16:32:22357 io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder,1001- Parsing response as: application/json
+Logger-->DEBUG 2018-08-01 16:32:22358 io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder,1002- Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+Logger-->DEBUG 2018-08-01 16:32:22387 org.apache.http.wire,1031-  << "19f[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:32:22387 org.apache.http.wire,1031-  << "{"code":200,"message":"\u767b\u9646\u6210\u529f","data":{"user_id":"411730","mobile":"18534163095","isenabled":"99","jgid":"160a3797c801aa68c5b","guid":"41A2CAF975F9AB906E52ECF85B5F080E","avatar":"http:\/\/files.kkpbcdn.com\/2017-12-11-11-08-496c8cbb89980243fb1735f5058e8323d7.png","city_id":"410100","real_name":"\u5404\u79cd\u5404\u6837","role_id":"9","team_id":"1","password":"dc483e80a7a0bd9ef71d8cf973673924"}}"
+Logger-->DEBUG 2018-08-01 16:32:22388 org.apache.http.wire,1032-  << "[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:32:22388 org.apache.http.wire,1032-  << "0[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:32:22389 org.apache.http.wire,1033-  << "[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:32:22389 org.apache.http.impl.conn.BasicClientConnectionManager,1033- Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@16c63f5
+Logger-->DEBUG 2018-08-01 16:32:22389 org.apache.http.impl.conn.BasicClientConnectionManager,1033- Connection can be kept alive indefinitely
+Logger-->DEBUG 2018-08-01 16:48:20241 java.lang.String,0- test_funciton_name:CsvReader;******LogMessage:行数:1********1,正常登录,post,http://test.xk.api.myzs.com/, gateway,application/x-www-form-urlencoded,password=dc483e80a7a0bd9ef71d8cf973673924&method=kkpb.user.login&mobile=18534163095,登陆成功
+Logger-->DEBUG 2018-08-01 16:48:20245 java.lang.String,4- test_funciton_name:CsvReader;******LogMessage:casename:正常登录--------------Param:password=dc483e80a7a0bd9ef71d8cf973673924&method=kkpb.user.login&mobile=18534163095
+Logger-->DEBUG 2018-08-01 16:48:20247 java.lang.String,6- test_funciton_name:CsvReader;******LogMessage:行数:2********2,正常登录但账号错误,post,http://test.xk.api.myzs.com/, gateway,application/x-www-form-urlencoded,password=aaaaaa6&method=kkpb.user.login&mobile=18534163095,不正确
+Logger-->DEBUG 2018-08-01 16:48:20249 java.lang.String,8- test_funciton_name:CsvReader;******LogMessage:casename:正常登录但账号错误--------------Param:password=aaaaaa6&method=kkpb.user.login&mobile=18534163095
+Logger-->DEBUG 2018-08-01 16:48:2153 org.apache.http.impl.conn.BasicClientConnectionManager,812- Get connection for route {}->http://test.xk.api.myzs.com:80
+Logger-->DEBUG 2018-08-01 16:48:2165 org.apache.http.impl.conn.DefaultClientConnectionOperator,824- Connecting to test.xk.api.myzs.com:80
+Logger-->DEBUG 2018-08-01 16:48:21117 org.apache.http.client.protocol.RequestAddCookies,876- CookieSpec selected: ignoreCookies
+Logger-->DEBUG 2018-08-01 16:48:21119 org.apache.http.client.protocol.RequestAuthCache,878- Auth cache not set in the context
+Logger-->DEBUG 2018-08-01 16:48:21119 org.apache.http.client.protocol.RequestTargetAuthentication,878- Target auth state: UNCHALLENGED
+Logger-->DEBUG 2018-08-01 16:48:21120 org.apache.http.client.protocol.RequestProxyAuthentication,879- Proxy auth state: UNCHALLENGED
+Logger-->DEBUG 2018-08-01 16:48:21121 org.apache.http.impl.client.DefaultHttpClient,880- Attempt 1 to execute request
+Logger-->DEBUG 2018-08-01 16:48:21122 org.apache.http.impl.conn.DefaultClientConnection,881- Sending request: POST /gateway HTTP/1.1
+Logger-->DEBUG 2018-08-01 16:48:21123 org.apache.http.wire,882-  >> "POST /gateway HTTP/1.1[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:48:21124 org.apache.http.wire,883-  >> "Accept: */*[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:48:21124 org.apache.http.wire,883-  >> "Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:48:21125 org.apache.http.wire,884-  >> "Content-Length: 83[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:48:21126 org.apache.http.wire,885-  >> "Host: test.xk.api.myzs.com[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:48:21126 org.apache.http.wire,885-  >> "Connection: Keep-Alive[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:48:21126 org.apache.http.wire,885-  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_73)[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:48:21127 org.apache.http.wire,886-  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:48:21127 org.apache.http.wire,886-  >> "[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:48:21127 org.apache.http.headers,886- >> POST /gateway HTTP/1.1
+Logger-->DEBUG 2018-08-01 16:48:21128 org.apache.http.headers,887- >> Accept: */*
+Logger-->DEBUG 2018-08-01 16:48:21128 org.apache.http.headers,887- >> Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1
+Logger-->DEBUG 2018-08-01 16:48:21128 org.apache.http.headers,887- >> Content-Length: 83
+Logger-->DEBUG 2018-08-01 16:48:21129 org.apache.http.headers,888- >> Host: test.xk.api.myzs.com
+Logger-->DEBUG 2018-08-01 16:48:21129 org.apache.http.headers,888- >> Connection: Keep-Alive
+Logger-->DEBUG 2018-08-01 16:48:21129 org.apache.http.headers,888- >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_73)
+Logger-->DEBUG 2018-08-01 16:48:21129 org.apache.http.headers,888- >> Accept-Encoding: gzip,deflate
+Logger-->DEBUG 2018-08-01 16:48:21130 org.apache.http.wire,889-  >> "password=dc483e80a7a0bd9ef71d8cf973673924&method=kkpb.user.login&mobile=18534163095"
+Logger-->DEBUG 2018-08-01 16:48:21202 org.apache.http.wire,961-  << "HTTP/1.1 200 OK[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:48:21204 org.apache.http.wire,963-  << "Server: nginx/1.4.6 (Ubuntu)[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:48:21204 org.apache.http.wire,963-  << "Date: Wed, 01 Aug 2018 08:48:24 GMT[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:48:21204 org.apache.http.wire,963-  << "Content-Type: application/json[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:48:21204 org.apache.http.wire,963-  << "Transfer-Encoding: chunked[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:48:21205 org.apache.http.wire,964-  << "Connection: keep-alive[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:48:21205 org.apache.http.wire,964-  << "X-Powered-By: PHP/5.5.9-1ubuntu4.19[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:48:21205 org.apache.http.wire,964-  << "[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:48:21206 org.apache.http.impl.conn.DefaultClientConnection,965- Receiving response: HTTP/1.1 200 OK
+Logger-->DEBUG 2018-08-01 16:48:21206 org.apache.http.headers,965- << HTTP/1.1 200 OK
+Logger-->DEBUG 2018-08-01 16:48:21207 org.apache.http.headers,966- << Server: nginx/1.4.6 (Ubuntu)
+Logger-->DEBUG 2018-08-01 16:48:21207 org.apache.http.headers,966- << Date: Wed, 01 Aug 2018 08:48:24 GMT
+Logger-->DEBUG 2018-08-01 16:48:21207 org.apache.http.headers,966- << Content-Type: application/json
+Logger-->DEBUG 2018-08-01 16:48:21207 org.apache.http.headers,966- << Transfer-Encoding: chunked
+Logger-->DEBUG 2018-08-01 16:48:21208 org.apache.http.headers,967- << Connection: keep-alive
+Logger-->DEBUG 2018-08-01 16:48:21208 org.apache.http.headers,967- << X-Powered-By: PHP/5.5.9-1ubuntu4.19
+Logger-->DEBUG 2018-08-01 16:48:21212 org.apache.http.impl.client.DefaultHttpClient,971- Connection can be kept alive indefinitely
+Logger-->DEBUG 2018-08-01 16:48:21224 io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder,983- Parsing response as: application/json
+Logger-->DEBUG 2018-08-01 16:48:21225 io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder,984- Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+Logger-->DEBUG 2018-08-01 16:48:21256 org.apache.http.wire,1015-  << "19f[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:48:21256 org.apache.http.wire,1015-  << "{"code":200,"message":"\u767b\u9646\u6210\u529f","data":{"user_id":"411730","mobile":"18534163095","isenabled":"99","jgid":"160a3797c801aa68c5b","guid":"8AC7A8987837E4398F491ECD38B4BCA7","avatar":"http:\/\/files.kkpbcdn.com\/2017-12-11-11-08-496c8cbb89980243fb1735f5058e8323d7.png","city_id":"410100","real_name":"\u5404\u79cd\u5404\u6837","role_id":"9","team_id":"1","password":"dc483e80a7a0bd9ef71d8cf973673924"}}"
+Logger-->DEBUG 2018-08-01 16:48:21258 org.apache.http.wire,1017-  << "[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:48:21259 org.apache.http.wire,1018-  << "0[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:48:21259 org.apache.http.wire,1018-  << "[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:48:21259 org.apache.http.impl.conn.BasicClientConnectionManager,1018- Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@16c63f5
+Logger-->DEBUG 2018-08-01 16:48:21259 org.apache.http.impl.conn.BasicClientConnectionManager,1018- Connection can be kept alive indefinitely
+Logger-->DEBUG 2018-08-01 16:48:21603 org.apache.http.impl.conn.BasicClientConnectionManager,1362- Get connection for route {}->http://test.xk.api.myzs.com:80
+Logger-->DEBUG 2018-08-01 16:48:21603 org.apache.http.impl.conn.DefaultClientConnectionOperator,1362- Connecting to test.xk.api.myzs.com:80
+Logger-->DEBUG 2018-08-01 16:48:21652 org.apache.http.client.protocol.RequestAddCookies,1411- CookieSpec selected: ignoreCookies
+Logger-->DEBUG 2018-08-01 16:48:21653 org.apache.http.client.protocol.RequestAuthCache,1412- Auth cache not set in the context
+Logger-->DEBUG 2018-08-01 16:48:21654 org.apache.http.client.protocol.RequestTargetAuthentication,1413- Target auth state: UNCHALLENGED
+Logger-->DEBUG 2018-08-01 16:48:21654 org.apache.http.client.protocol.RequestProxyAuthentication,1413- Proxy auth state: UNCHALLENGED
+Logger-->DEBUG 2018-08-01 16:48:21655 org.apache.http.impl.client.DefaultHttpClient,1414- Attempt 1 to execute request
+Logger-->DEBUG 2018-08-01 16:48:21655 org.apache.http.impl.conn.DefaultClientConnection,1414- Sending request: POST /gateway HTTP/1.1
+Logger-->DEBUG 2018-08-01 16:48:21656 org.apache.http.wire,1415-  >> "POST /gateway HTTP/1.1[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:48:21657 org.apache.http.wire,1416-  >> "Accept: */*[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:48:21657 org.apache.http.wire,1416-  >> "Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:48:21658 org.apache.http.wire,1417-  >> "Content-Length: 58[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:48:21658 org.apache.http.wire,1417-  >> "Host: test.xk.api.myzs.com[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:48:21659 org.apache.http.wire,1418-  >> "Connection: Keep-Alive[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:48:21660 org.apache.http.wire,1419-  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_73)[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:48:21660 org.apache.http.wire,1419-  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:48:21661 org.apache.http.wire,1420-  >> "[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:48:21661 org.apache.http.headers,1420- >> POST /gateway HTTP/1.1
+Logger-->DEBUG 2018-08-01 16:48:21662 org.apache.http.headers,1421- >> Accept: */*
+Logger-->DEBUG 2018-08-01 16:48:21662 org.apache.http.headers,1421- >> Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1
+Logger-->DEBUG 2018-08-01 16:48:21663 org.apache.http.headers,1422- >> Content-Length: 58
+Logger-->DEBUG 2018-08-01 16:48:21663 org.apache.http.headers,1422- >> Host: test.xk.api.myzs.com
+Logger-->DEBUG 2018-08-01 16:48:21664 org.apache.http.headers,1423- >> Connection: Keep-Alive
+Logger-->DEBUG 2018-08-01 16:48:21665 org.apache.http.headers,1424- >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_73)
+Logger-->DEBUG 2018-08-01 16:48:21665 org.apache.http.headers,1424- >> Accept-Encoding: gzip,deflate
+Logger-->DEBUG 2018-08-01 16:48:21666 org.apache.http.wire,1425-  >> "password=aaaaaa6&method=kkpb.user.login&mobile=18534163095"
+Logger-->DEBUG 2018-08-01 16:48:21739 org.apache.http.wire,1498-  << "HTTP/1.1 200 OK[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:48:21740 org.apache.http.wire,1499-  << "Server: nginx/1.4.6 (Ubuntu)[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:48:21741 org.apache.http.wire,1500-  << "Date: Wed, 01 Aug 2018 08:48:25 GMT[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:48:21741 org.apache.http.wire,1500-  << "Content-Type: application/json[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:48:21742 org.apache.http.wire,1501-  << "Transfer-Encoding: chunked[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:48:21743 org.apache.http.wire,1502-  << "Connection: keep-alive[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:48:21743 org.apache.http.wire,1502-  << "X-Powered-By: PHP/5.5.9-1ubuntu4.19[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:48:21744 org.apache.http.wire,1503-  << "[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:48:21745 org.apache.http.impl.conn.DefaultClientConnection,1504- Receiving response: HTTP/1.1 200 OK
+Logger-->DEBUG 2018-08-01 16:48:21745 org.apache.http.headers,1504- << HTTP/1.1 200 OK
+Logger-->DEBUG 2018-08-01 16:48:21746 org.apache.http.headers,1505- << Server: nginx/1.4.6 (Ubuntu)
+Logger-->DEBUG 2018-08-01 16:48:21746 org.apache.http.headers,1505- << Date: Wed, 01 Aug 2018 08:48:25 GMT
+Logger-->DEBUG 2018-08-01 16:48:21747 org.apache.http.headers,1506- << Content-Type: application/json
+Logger-->DEBUG 2018-08-01 16:48:21747 org.apache.http.headers,1506- << Transfer-Encoding: chunked
+Logger-->DEBUG 2018-08-01 16:48:21748 org.apache.http.headers,1507- << Connection: keep-alive
+Logger-->DEBUG 2018-08-01 16:48:21748 org.apache.http.headers,1507- << X-Powered-By: PHP/5.5.9-1ubuntu4.19
+Logger-->DEBUG 2018-08-01 16:48:21749 org.apache.http.impl.client.DefaultHttpClient,1508- Connection can be kept alive indefinitely
+Logger-->DEBUG 2018-08-01 16:48:21750 io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder,1509- Parsing response as: application/json
+Logger-->DEBUG 2018-08-01 16:48:21750 io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder,1509- Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+Logger-->DEBUG 2018-08-01 16:48:21752 org.apache.http.wire,1511-  << "37[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:48:21753 org.apache.http.wire,1512-  << "{"code":201,"message":"\u5bc6\u7801\u4e0d\u6b63\u786e"}"
+Logger-->DEBUG 2018-08-01 16:48:21753 org.apache.http.wire,1512-  << "[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:48:21753 org.apache.http.wire,1512-  << "0[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:48:21754 org.apache.http.wire,1513-  << "[\r][\n]"
+Logger-->DEBUG 2018-08-01 16:48:21754 org.apache.http.impl.conn.BasicClientConnectionManager,1513- Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@1bb1fde8
+Logger-->DEBUG 2018-08-01 16:48:21754 org.apache.http.impl.conn.BasicClientConnectionManager,1513- Connection can be kept alive indefinitely

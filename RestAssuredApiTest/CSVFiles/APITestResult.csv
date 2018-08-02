@@ -1,0 +1,4 @@
+ID,casename,param,断言字符串,返回结果,测试结果,测试用时,测试日期
+1,正常登录,password=dc483e80a7a0bd9ef71d8cf973673924&method=kkpb.user.login&mobile=18534163095,登陆成功,"code:200,message登陆成功datas:{password=dc483e80a7a0bd9ef71d8cf973673924, user_id=411730, role_id=9, mobile=18534163095, jgid=160a3797c801aa68c5b, guid=E8ECE7F5990EA1BB55E6CB8521EE603F, real_name=各种各样, avatar=http://files.kkpbcdn.com/2017-12-11-11-08-496c8cbb89980243fb1735f5058e8323d7.png, team_id=1, isenabled=99, city_id=410100}",PASS,481,2018/8/1 17:38
+2,正常登录但账号错误,password=aaaaaa6&method=kkpb.user.login&mobile=18534163095,不正确,"code:201,message密码不正确datas:null",PASS,125,2018/8/1 17:38
+3,手机号不存在进行登录,password=aaaaaa6&method=kkpb.user.login&mobile=19900000000,未注册,"code:201,message手机号未注册datas:null",PASS,97,2018/8/1 17:38
