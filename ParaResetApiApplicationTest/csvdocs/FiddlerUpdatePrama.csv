@@ -1,0 +1,15 @@
+Fiddlerupdata,
+apiversion=V1&appkey=1&device=1&format=json&imei=869334027396186&jgid=010fec58471&lat=0.0&lng=0.0&method=kkpb.user.login&sign=77a806c2684447f982e322fa5d43bbdf&source=Redmi Note 2 5.0.2&timestamp=1533527481206&token=E32FF72F589C56CE4785FF76ED83CCC9&user_flag=3&user_mobile=18638732236&user_pwd=123456&version=2.2.2
+apiversion=V1&appkey=1&city_id=410100&device=1&format=json&method=kkpb.location.add&sign=92bc161489fcdfe4af294e5b481ce726&source=Redmi Note 2 5.0.2&timestamp=1533527481206&token=E32FF72F589C56CE4785FF76ED83CCC9&user_id=411586&version=2.2.2&xcoordinate=34.801417&ycoordinate=113.608336
+apiversion=V1&appkey=1&device=1&format=json&lat=34.801416&lng=113.608331&method=kkpb.order.lists&page=1&sign=db11cdbf2004b4354c1935d4b597de2f&source=Redmi Note 2 5.0.2&timestamp=1533527481206&token=E32FF72F589C56CE4785FF76ED83CCC9&user_id=411586&version=2.2.2
+apiversion=V1&appkey=1&device=1&express_id=411586&format=json&method=kkpb.send_order.orderinfo&order_sn=20180804587661&sign=73440718f1abf7a9c872e08bad6fc36b&source=Redmi Note 2 5.0.2&timestamp=1533527481206&token=E32FF72F589C56CE4785FF76ED83CCC9&version=2.2.2
+apiversion=V1&appkey=1&device=1&format=json&method=kkpb.express_info.getonlinetime&sign=c21eb895f04bf6cc64108f73c23e5948&source=Redmi Note 2 5.0.2&timestamp=1533527481206&token=E32FF72F589C56CE4785FF76ED83CCC9&user_id=411586&version=2.2.2
+apiversion=V1&appkey=1&device=1&format=json&method=kkpb.order.completeorderlist&page=1&sign=44079784edf3cd58c3615fe8ed9c1cc2&source=Redmi Note 2 5.0.2&timestamp=1533527481206&token=E32FF72F589C56CE4785FF76ED83CCC9&user_id=411586&version=2.2.2
+Fiddlerupdata,
+Fiddlerupdata,
+Fiddlerupdata,
+Fiddlerupdata,
+Fiddlerupdata,
+Fiddlerupdata,
+Fiddlerupdata,
+Fiddlerupdata,

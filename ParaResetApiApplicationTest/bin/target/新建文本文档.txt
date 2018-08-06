@@ -1,0 +1,6 @@
+
+@echo off
+set curdir=%~dp0
+cd /d %curdir%
+java -jar ParaResetApiTest-0.0.1-SNAPSHOT.war
+pause

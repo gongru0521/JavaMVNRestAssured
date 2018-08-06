@@ -1,0 +1,7 @@
+Fiddler获得的参数传递
+device=1&sign=54d57a3ebb0b65ab27971d6f82a9ef1a&source=Redmi+Note+2+5.0.2&method=kkpb.user.login&appkey=1&timestamp=1533351929&apiversion=V1&format=json&lng=0.0&user_pwd=123456&imei=869334027396186&user_mobile=18638732236&version=2.2.2&jgid=010fec58471&user_flag=3&lat=0.0
+device=1&city_id=410100&sign=bde5c2a63498c23297f49dd726798cc9&source=Redmi+Note+2+5.0.2&method=kkpb.location.add&appkey=1&token=B7C6A51495463CD04CFA39F4F6C3A498&timestamp=1533370765&apiversion=V1&xcoordinate=34.801417&format=json&version=2.2.2&ycoordinate=113.608336&user_id=411586
+device=1&sign=1df91d68b178eae06a3edfa24df81a8b&source=Redmi+Note+2+5.0.2&method=kkpb.order.lists&appkey=1&token=B7C6A51495463CD04CFA39F4F6C3A498&timestamp=1533370817&apiversion=V1&format=json&lng=113.608331&version=2.2.2&lat=34.801416&page=1&user_id=411586
+device=1&order_sn=20180804587661&sign=41e7606adb64804dac97566717fedbb8&source=Redmi+Note+2+5.0.2&method=kkpb.send_order.orderinfo&appkey=1&token=B7C6A51495463CD04CFA39F4F6C3A498&version=2.2.2&timestamp=1533370848&express_id=411586&apiversion=V1&format=json
+device=1&sign=248bebf41a384f2e55816a6f5fb3fe73&source=Redmi+Note+2+5.0.2&method=kkpb.express_info.getonlinetime&appkey=1&token=B7C6A51495463CD04CFA39F4F6C3A498&version=2.2.2&timestamp=1533370883&apiversion=V1&format=json&user_id=411586
+device=1&sign=3e266f8f6ab53734a721a129dc1b6f49&source=Redmi+Note+2+5.0.2&method=kkpb.order.completeorderlist&appkey=1&token=B7C6A51495463CD04CFA39F4F6C3A498&version=2.2.2&timestamp=1533370908&apiversion=V1&page=1&format=json&user_id=411586
